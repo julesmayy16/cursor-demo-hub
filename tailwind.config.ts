@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "dev-primary": "#1a1a1a",
-        "dev-accent": "#10b981", 
-        "dev-text": "#f8fafc",
-        "dev-secondary": "#64748b",
-        "dev-bg": "#0f172a",
-        "dev-card": "#1e293b",
+        "dev-primary": "#06302B",
+        "dev-accent": "#06302B", 
+        "dev-text": "#06302B",
+        "dev-secondary": "rgba(6, 48, 43, 0.6)",
+        "dev-bg": "#FEFCF6",
+        "dev-card": "#ffffff",
       },
       fontFamily: {
         "mono": ["JetBrains Mono", "monospace"],

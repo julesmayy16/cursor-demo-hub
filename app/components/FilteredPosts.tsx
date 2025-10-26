@@ -91,13 +91,13 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
   }
 
   return (
-    <div className="flex w-full flex-col items-center justify-start gap-5 overflow-auto p-4 pt-10 md:w-2/3">
+    <div className="flex w-full flex-col items-center justify-start gap-5 overflow-auto bg-dev-primary p-4 pt-10 md:w-2/3">
       {filteredPosts.length > 0 && !!filter.length && (
         <div className="box-border flex w-full flex-col items-start gap-10 px-20 pt-5">
-          <button onClick={clearFilter} className="text-dev-accent hover:text-dev-text">
+          <button onClick={clearFilter} className="text-white hover:text-white/70">
             ← Back to all posts
           </button>
-          <div className="text-3xl text-dev-text">
+          <div className="text-3xl text-white">
             {isDateFilter ? (
               <>
                 {`${filteredPosts.length} ${
@@ -125,7 +125,7 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
         />
       ))}
       {filteredPosts.length === 0 && (
-        <div className="text-2xl text-dev-secondary">{`No posts found for "${filter}"`}</div>
+        <div className="text-2xl text-white">{`No posts found for "${filter}"`}</div>
       )}
 
       {!isDateFilter && !isTextFilter && (
@@ -141,7 +141,7 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
               key={pageNumber}
               onClick={() => setCurrentPage(pageNumber)}
               className={
-                currentPage === pageNumber ? "border border-dev-accent" : ""
+                currentPage === pageNumber ? "border border-white" : ""
               }
             >
               {pageNumber}

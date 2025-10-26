@@ -45,7 +45,7 @@ const Sidebar = ({ groupedPosts }: SidebarProps) => {
       </button>
 
       <div
-        className={`fixed inset-y-0 left-0 z-30 w-full transform bg-dev-card p-0 text-4xl text-dev-text transition-transform duration-300 ease-in-out md:static md:w-1/3 md:transform-none ${
+        className={`fixed inset-y-0 left-0 z-30 w-full transform bg-dev-bg p-0 text-4xl text-dev-text transition-transform duration-300 ease-in-out md:static md:w-1/3 md:transform-none ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         }`}
       >
@@ -59,7 +59,7 @@ const Sidebar = ({ groupedPosts }: SidebarProps) => {
           </button>
         )}
 
-        <div className="ml-2 mt-5 flex flex-col gap-3 p-4">
+        <div className="ml-2 mt-10 flex flex-col gap-3 p-4">
           <h1 className="text-dev-text">Developer Blog</h1>
           <div className="text-base text-dev-secondary">
             Clean, markdown-powered blogging for developers who love to write.
@@ -70,7 +70,7 @@ const Sidebar = ({ groupedPosts }: SidebarProps) => {
             type="text"
             value={inputValue}
             onChange={handleInputChange}
-            className="flex-grow rounded-lg border border-dev-secondary/30 bg-dev-bg p-4 text-base text-dev-text placeholder-dev-secondary"
+            className="flex-grow rounded-lg border border-dev-secondary/30 bg-dev-card p-4 text-base text-dev-text placeholder-dev-secondary"
             placeholder="search posts, tags, keywords..."
           />
           <button

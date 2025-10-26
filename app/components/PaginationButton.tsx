@@ -8,7 +8,7 @@ function PaginationButton({ onClick, children, className = "" }: PaginationButto
   return (
     <button
       onClick={onClick}
-      className={`px-3 py-2 bg-dev-card text-dev-text rounded hover:bg-dev-accent hover:text-white transition-colors ${className}`}
+      className={`rounded-lg bg-white px-4 py-2 text-dev-primary transition-colors duration-100 ease-in hover:bg-dev-primary hover:text-white ${className}`}
     >
       {children}
     </button>

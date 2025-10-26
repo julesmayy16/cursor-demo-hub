@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { useFilter } from "../context/FilterContext";
 import { format, parse, differenceInDays, formatDistanceToNow } from "date-fns";
@@ -8,7 +9,7 @@ interface PostLinkProps {
   date: string;
   id: string;
   tags: string[];
-  readingTime?: number;
+  readingTime: number | undefined;
 }
 
 function PostLink({
@@ -37,51 +38,79 @@ function PostLink({
         : format(parsedDate, "MMM d, yyyy");
 
   return (
-    <div className="box-border flex w-full flex-col items-start justify-center gap-2 px-20 pt-5">
+    <div className="box-border flex w-full flex-col items-start justify-center gap-2 pl-16 pr-4 pt-3 md:px-20 md:pt-5">
       <div>
         <Link
           href={`/posts/${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
         >
-          <div className="flex justify-between items-center gap-5">
-            <h4 className="text-xl text-dev-text decoration-dev-text hover:text-dev-accent">{title}</h4>
-            <span className="text-dev-accent">→</span>
+          <div className="flex items-center justify-between gap-2 md:gap-5">
+            <h4 className="text-lg leading-tight text-white decoration-white hover:underline md:text-xl">
+              {title}
+            </h4>
+            <Image
+              className="flex-shrink-0"
+              src="/arrow-forward.svg"
+              alt="arrow"
+              width={12}
+              height={12}
+            />
           </div>
         </Link>
       </div>
-      <div className="text-sm text-dev-secondary">
+      <div className="text-xs text-white md:text-sm">
         {formattedDate} {readingTime ? `• ${readingTime} min read` : ""}
       </div>
-      <div className="flex flex-wrap gap-2 text-sm">
+      <div className="flex flex-wrap gap-1 text-xs text-white md:gap-2 md:text-sm">
         {tags &&
           tags.map((tag, index) => (
             <span
               key={tag}
-              className={`cursor-pointer text-dev-accent underline hover:font-semibold ${
-                index >= 2 && !showAllTags ? "hidden sm:inline" : ""
+              className={`cursor-pointer underline hover:font-semibold ${
+                !showAllTags
+                  ? index >= 3
+                    ? "hidden"
+                    : index >= 2
+                      ? "hidden md:inline"
+                      : ""
+                  : ""
               }`}
               onClick={() => setFilter(tag.toLowerCase())}
             >
-              #{tag.toLowerCase()}
+              {tag.toLowerCase()}
             </span>
           ))}
+
+        {/* Mobile "more" indicator */}
         {tags.length > 2 && !showAllTags && (
           <span
-            className="cursor-pointer text-sm underline text-dev-secondary sm:hidden"
+            className="cursor-pointer text-sm text-white underline md:hidden"
             onClick={() => setShowAllTags(true)}
           >
             + {tags.length - 2} more
           </span>
         )}
-        {tags.length > 2 && showAllTags && (
+
+        {/* Desktop "more" indicator */}
+        {tags.length > 3 && !showAllTags && (
           <span
-            className="cursor-pointer text-sm font-bold text-dev-secondary sm:hidden"
+            className="hidden cursor-pointer text-sm text-white underline md:inline"
+            onClick={() => setShowAllTags(true)}
+          >
+            + {tags.length - 3} more
+          </span>
+        )}
+
+        {/* Show less button */}
+        {showAllTags && tags.length > 2 && (
+          <span
+            className="cursor-pointer text-sm font-bold text-white"
             onClick={() => setShowAllTags(false)}
           >
             show less
           </span>
         )}
       </div>
-      <div className="w-full border-b border-dev-secondary/20 pb-5"></div>
+      <div className="w-full border-b border-white/10 pb-5"></div>
     </div>
   );
 }

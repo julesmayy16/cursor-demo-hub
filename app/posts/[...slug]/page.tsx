@@ -68,7 +68,7 @@ const Post = async ({ params }: { params: Promise<{ slug: string[] }> }) => {
           </div>
           <hr className="my-5 border-dev-secondary/30" />
           <div
-            className="flex flex-col gap-5 text-dev-text prose prose-invert max-w-none"
+            className="flex flex-col gap-5 text-dev-text prose max-w-none"
             dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
           />
           <hr className="my-5 border-dev-secondary/30" />
