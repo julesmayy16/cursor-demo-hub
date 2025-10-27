@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 interface PaginationButtonProps {
   onClick: () => void;
   children: React.ReactNode;
@@ -7,16 +9,13 @@ interface PaginationButtonProps {
 
 function PaginationButton({ onClick, children, isActive = false, className = "" }: PaginationButtonProps) {
   return (
-    <button
+    <Button
       onClick={onClick}
-      className={`rounded-lg px-4 py-2 transition-colors duration-100 ease-in ${
-        isActive
-          ? "bg-dev-primary text-white border border-white"
-          : "text-white hover:bg-white hover:text-dev-primary"
-      } ${className}`}
+      variant={isActive ? "pagination-active" : "pagination"}
+      className={className}
     >
       {children}
-    </button>
+    </Button>
   );
 }
 

@@ -10,6 +10,8 @@ import {
   IndexedPost,
 } from "@/lib/searchIndex";
 import PaginationButton from "@/app/components/PaginationButton";
+import Container from "@/app/components/Container";
+import TextLink from "@/app/components/TextLink";
 import { parse, format } from "date-fns";
 
 interface FilteredPostsProps {
@@ -25,7 +27,7 @@ interface ProcessedPostData extends IndexedPost {
   month: string;
 }
 
-function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
+function FilteredPosts({ allPostsData }: FilteredPostsProps) {
   const { filter, setFilter } = useFilter();
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 4;
@@ -93,10 +95,10 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
   return (
     <div className="flex w-full flex-col items-center justify-start gap-5 overflow-auto bg-dev-primary p-4 pt-10 md:w-2/3">
       {filteredPosts.length > 0 && !!filter.length && (
-        <div className="box-border flex w-full flex-col items-start gap-10 px-20 pt-5">
-          <button onClick={clearFilter} className="text-white hover:text-white/70">
+        <Container variant="content">
+          <TextLink onClick={clearFilter}>
             ← Back to all posts
-          </button>
+          </TextLink>
           <div className="text-3xl text-white">
             {isDateFilter ? (
               <>
@@ -112,7 +114,7 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
               } for "${filter}"`
             )}
           </div>
-        </div>
+        </Container>
       )}
       {paginatedPosts.map(({ id, title, date, tags, readingTime }) => (
         <PostLink
@@ -131,12 +133,9 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
       {!isDateFilter && !isTextFilter && (
         <div className="mt-4 flex gap-2 items-center">
           {currentPage > 1 && (
-            <span 
-              onClick={() => setCurrentPage(currentPage - 1)}
-              className="text-white cursor-pointer hover:text-white/70"
-            >
+            <TextLink onClick={() => setCurrentPage(currentPage - 1)}>
               &laquo;
-            </span>
+            </TextLink>
           )}
 
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNumber) => {
@@ -162,12 +161,9 @@ function FilteredPosts({ allPostsData }: FilteredPostsProps): JSX.Element {
           })}
 
           {currentPage < totalPages && (
-            <span 
-              onClick={() => setCurrentPage(currentPage + 1)}
-              className="text-white cursor-pointer hover:text-white/70"
-            >
+            <TextLink onClick={() => setCurrentPage(currentPage + 1)}>
               &raquo;
-            </span>
+            </TextLink>
           )}
         </div>
       )}

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-dev-accent: #06302B;
+  --color-dev-primary: #06302B;
+}
+
 @layer base {
   body {
     @apply bg-dev-bg text-dev-text;
@@ -50,15 +55,20 @@
   }
   
   .prose blockquote {
-    @apply border-l-4 border-dev-accent/60 bg-dev-accent/5 pl-4 italic text-dev-secondary rounded-r-lg my-4;
+    @apply border-l-4 border-dev-accent pl-4 italic text-dev-secondary rounded-r-lg my-4;
+    border-left-color: color-mix(in srgb, var(--color-dev-accent) 60%, transparent);
+    background-color: color-mix(in srgb, var(--color-dev-accent) 5%, transparent);
   }
   
   .prose code {
-    @apply bg-dev-accent/10 px-2 py-1 rounded text-sm font-mono text-dev-text;
+    @apply px-2 py-1 rounded text-sm font-mono text-dev-text;
+    background-color: color-mix(in srgb, var(--color-dev-accent) 10%, transparent);
   }
   
   .prose pre {
-    @apply bg-dev-accent/5 border border-dev-accent/20 p-4 rounded-lg overflow-x-auto my-4;
+    @apply p-4 rounded-lg overflow-x-auto my-4;
+    background-color: color-mix(in srgb, var(--color-dev-accent) 5%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-dev-accent) 20%, transparent);
   }
   
   .prose pre code {
@@ -79,29 +89,5 @@
   
   .prose h3 {
     @apply text-xl lg:text-2xl;
-  }
-  
-  h1 {
-    @apply text-3xl font-bold lg:text-4xl;
-  }
-  
-  h2 {
-    @apply text-2xl font-semibold lg:text-3xl;
-  }
-  
-  h3 {
-    @apply text-xl font-medium lg:text-2xl;
-  }
-  
-  h4 {
-    @apply text-lg font-medium lg:text-xl;
-  }
-  
-  h5 {
-    @apply text-base font-normal lg:text-lg;
-  }
-  
-  h6 {
-    @apply text-sm font-normal lg:text-base;
   }
 }

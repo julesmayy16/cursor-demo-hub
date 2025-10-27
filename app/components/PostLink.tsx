@@ -3,6 +3,9 @@ import Image from "next/image";
 import { useState } from "react";
 import { useFilter } from "../context/FilterContext";
 import { format, parse, differenceInDays, formatDistanceToNow } from "date-fns";
+import Container from "./Container";
+import Divider from "./Divider";
+import TextLink from "./TextLink";
 
 interface PostLinkProps {
   title: string;
@@ -18,7 +21,7 @@ function PostLink({
   date,
   tags,
   readingTime,
-}: PostLinkProps): JSX.Element {
+}: PostLinkProps) {
   const { setFilter } = useFilter();
   const [showAllTags, setShowAllTags] = useState(false);
 
@@ -38,7 +41,7 @@ function PostLink({
         : format(parsedDate, "MMM d, yyyy");
 
   return (
-    <div className="box-border flex w-full flex-col items-start justify-center gap-2 pl-16 pr-4 pt-3 md:px-20 md:pt-5">
+    <Container variant="post">
       <div>
         <Link
           href={`/posts/${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
@@ -63,9 +66,10 @@ function PostLink({
       <div className="flex flex-wrap gap-1 text-xs text-white md:gap-2 md:text-sm">
         {tags &&
           tags.map((tag, index) => (
-            <span
+            <TextLink
               key={tag}
-              className={`cursor-pointer underline hover:font-semibold ${
+              variant="underline"
+              className={
                 !showAllTags
                   ? index >= 3
                     ? "hidden"
@@ -73,45 +77,47 @@ function PostLink({
                       ? "hidden md:inline"
                       : ""
                   : ""
-              }`}
+              }
               onClick={() => setFilter(tag.toLowerCase())}
             >
               {tag.toLowerCase()}
-            </span>
+            </TextLink>
           ))}
 
         {/* Mobile "more" indicator */}
         {tags.length > 2 && !showAllTags && (
-          <span
-            className="cursor-pointer text-sm text-white underline md:hidden"
+          <TextLink
+            variant="underline"
+            className="text-sm md:hidden"
             onClick={() => setShowAllTags(true)}
           >
             + {tags.length - 2} more
-          </span>
+          </TextLink>
         )}
 
         {/* Desktop "more" indicator */}
         {tags.length > 3 && !showAllTags && (
-          <span
-            className="hidden cursor-pointer text-sm text-white underline md:inline"
+          <TextLink
+            variant="underline"
+            className="text-sm hidden md:inline"
             onClick={() => setShowAllTags(true)}
           >
             + {tags.length - 3} more
-          </span>
+          </TextLink>
         )}
 
         {/* Show less button */}
         {showAllTags && tags.length > 2 && (
-          <span
-            className="cursor-pointer text-sm font-bold text-white"
+          <TextLink
+            className="text-sm font-bold"
             onClick={() => setShowAllTags(false)}
           >
             show less
-          </span>
+          </TextLink>
         )}
       </div>
-      <div className="w-full border-b border-white/10 pb-5"></div>
-    </div>
+      <Divider />
+    </Container>
   );
 }
 

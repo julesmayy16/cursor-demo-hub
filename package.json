@@ -17,7 +17,8 @@
     "type-check": "tsc --noEmit",
     "create": "node scripts/posts/createPost.mjs",
     "publish": "node scripts/posts/publishPost.mjs",
-    "tags:collect": "node scripts/posts/collectTags.mjs"
+    "tags:collect": "node scripts/posts/collectTags.mjs",
+    "kill:ports": "for port in {3000..3009}; do lsof -ti:$port | xargs kill -9 2>/dev/null; done"
   },
   "dependencies": {
     "clsx": "2.1.1",

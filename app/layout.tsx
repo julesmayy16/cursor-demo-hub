@@ -5,7 +5,7 @@ import "./globals.css";
 const ebGaramond = EB_Garamond({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Developer Blog",
+  title: "Cursor Curious",
   description: "A clean, markdown-powered blog for developers",
 };
 
