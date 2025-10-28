@@ -18,7 +18,7 @@ for wt in "${WTS[@]}"; do
   label="$(basename "$wt") [$branch] :$port"
 
   echo "Starting $label"
-  (cd "$wt" && NEXT_PUBLIC_LABEL="$label" VITE_LABEL="$label" PORT="$port" pnpm run dev -- -p "$port") &
+  (cd "$wt" && NEXT_PUBLIC_LABEL="$label" VITE_LABEL="$label" PORT="$port" pnpm run dev) &
   pids+=($!)
   i=$((i+1))
 done
