@@ -15,13 +15,25 @@
 - **Open Browser** - Navigate to the local development URL (typically http://localhost:3000)
 - Explain that this is a blog application we built
 - Show the current state before we make changes
+- **Note:** WIP - Working on making this process terminal-free if desired
 
 ### 1. Agent View (Start)
 - **Start in Normal Editor View** - Begin demonstration in standard editor interface
 - **Switch to Agent View** - Located at top-right corner of interface
 - Introduce the fresh interface for working with agents as a first-class experience
 
-### 2. Worktrees - Implement Dark Mode
+### 2. Worktrees - WIP
+- Click on the toggle at the bottom left underneath chat window, select Worktree
+- Select multiple models to run in parallel
+- **Task:** Implement multiple front-end features at once and create PRs
+- **Deep Link:** TBD
+- **Prompt Text:** TBD
+- Demonstrate implementing multiple features simultaneously
+- Show how different models approach the same tasks
+- Highlight: Parallel implementations and comparison
+- **Note:** Setup and deep link details TBD - currently working on this workflow
+
+### 3. Best of N - Implement Dark Mode
 - Click on the toggle at the bottom left underneath chat window, select Worktree
 - Select 3-4 models to run in parallel
 - **Task:** Implement dark mode
@@ -37,7 +49,7 @@
 - Open up a new agent, select only Composer
 - Use custom slash command `/commit` to commit the dark mode implementation
 
-### 3. Browser - Extend Feature with Themes
+### 4. Browser - Extend Feature with Themes
 - Open a new agent tab
 - **Task:** Add orange and purple theme options
 - **Deep Link:** [Add Themes](cursor://anysphere.cursor-deeplink/prompt?text=Add%20orange%20and%20purple%20theme%20options%20to%20the%20theme%20system.%20Follow%20the%20instructions%20in%20%40MULTI_THEME_PRD%20and%20%40MULTI_THEME_PLAN)
@@ -50,12 +62,12 @@
 - Run the prompt to demonstrate the theme updates in real time via the browser
 - Use custom slash command `/commit` to commit the theme system changes
 
-### 4. Diff View
+### 5. Diff View
 - During the process, Diff View appears
 - Show how to review local diffs without switching files
 - Highlight: Faster and easier code review
 
-### 5. Browser Screenshots & PR with Images
+### 6. Browser Screenshots & PR with Images
 - Open a new agent tab
 - **Task:** Take screenshots of all themes and create a PR with inline images
 - **Deep Link:** [Screenshots & PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20all%20four%20themes%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
@@ -71,18 +83,19 @@
 - **Show:** Images displaying inline in the GitHub PR description
 - Highlight: Programmatic screenshot workflow without manual drag-and-drop
 
-### 6. Voice Mode
+### 7. Voice Mode
 - Use voice to quickly adjust code
 - Demonstrate: "Turn speech into prompts instantly"
 - Show iteration speed improvement
 
-### 7. Commit & PR
+### 8. Commit & PR
 - Use custom slash command `/create-pr` to create a pull request
 - Open up GH, see the generated commit
 
 ## Features Covered
 - ✅ Agent View
-- ✅ Worktrees
+- ✅ Worktrees (WIP)
+- ✅ Best of N
 - ✅ Built-in Browser
 - ✅ Diff View
 - ✅ Browser Screenshots & PR Images
