@@ -20,18 +20,30 @@
 ### 1. Agent View (Start)
 - **Start in Normal Editor View** - Begin demonstration in standard editor interface
 - **Switch to Agent View** - Located at top-right corner of interface
-- Introduce the fresh interface for working with agents as a first-class experience
+**Screenshot
 
 ### 2. Worktrees - WIP
 - Click on the toggle at the bottom left underneath chat window, select Worktree
-- Select multiple models to run in parallel
+
 - **Task:** Implement multiple front-end features at once and create PRs
-- **Deep Link:** TBD
-- **Prompt Text:** TBD
+- **Deep Link (Banner):** [Sticky bottom banner](cursor://anysphere.cursor-deeplink/prompt?text=Add%20a%20sticky%20bottom%20banner%20that%20says%20Made%20with%20love%20%3Aheart-emoji%3A%20from%20Cursor%2C%20linking%20to%20https%3A%2F%2Fcursor.com%2C%20and%20it%20should%20be%20sticky%20and%20immediately%20visible.)
+- **Prompt Text (Banner):**
+  ```
+  Add a sticky bottom banner visible on all pages that says "Made with love ❤️ from Cursor" linking to https://cursor.com. 
+  ```
+
+- **Deep Link (Scroll-to-top):** [Scroll-to-top button](cursor://anysphere.cursor-deeplink/prompt?text=Add%20a%20scroll-to-top%20button%20fixed%20at%20the%20bottom-right%20of%20the%20page.)
+- **Prompt Text (Scroll-to-top):**
+  ```
+  Add a scroll-to-top button fixed at the bottom-right that appears after scrolling and returns to top on click. 
+  ```
 - Demonstrate implementing multiple features simultaneously
-- Show how different models approach the same tasks
+- Show how different models approach these tasks
 - Highlight: Parallel implementations and comparison
-- **Note:** Setup and deep link details TBD - currently working on this workflow
+- **Note:** Setup details TBD and WIP — still iterating on this workflow
+
+- Add a banner at the bottom that says Made with love :heart-emoji: from Cursor, with a link to the Cursor website; banner should be sticky and immediately visible
+- Add a scroll to the top button at the bottom right of the page
 
 ### 3. Best of N - Implement Dark Mode
 - Click on the toggle at the bottom left underneath chat window, select Worktree
@@ -103,3 +115,12 @@
 - ✅ Composer (the intelligent coding model)
 - ✅ Custom Slash Commands (`/commit`, `/create-pr`)
 
+---
+
+Create set up scripts to set up + clean up demos
+
+----
+Cursor Shortcuts CheatSheet:
+
+Command + P (search for and open files)
+Command + Shift + P (search for ...? like running MD preview)
