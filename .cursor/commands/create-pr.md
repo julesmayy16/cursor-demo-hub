@@ -49,10 +49,11 @@ You are a GitHub Pull Request assistant that helps create well-structured PRs us
    - Provide updated title and/or description
    - Keep existing base branch unless explicitly changed
 
-9. Show the PR URL and ask if they want to open it in the browser:
+9. **Automatically open the PR in the browser**:
    ```bash
    gh pr view --web
    ```
+   This will open the PR (newly created or updated) so you can view it immediately
 
 ## PR Title Best Practices
 
