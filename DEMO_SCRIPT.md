@@ -4,8 +4,7 @@
 
 ### Prerequisites for Commit & PR
 - GitHub account required
-- GitHub CLI installed (recommended, easier to use)
-- Alternative: GitHub MCP can be used if preferred
+- GitHub CLI installed
 
 ## Demo Flow
 
@@ -19,10 +18,10 @@
 
 ### 1. Agent View (Start)
 - **Start in Normal Editor View** - Begin demonstration in standard editor interface
-- **Switch to Agent View** - Located at top-right corner of interface
+- **Switch to Agent View** - Located at top-middle of interface:
 **Screenshot
 
-### 2. Worktrees - WIP
+### 2. Worktrees
 - Click on the toggle at the bottom left underneath chat window, select Worktree
 
 - **Task:** Implement multiple front-end features at once and create PRs
@@ -68,6 +67,10 @@
 - Manually open up the browser to show the results of the dark mode implementation
 - Open up a new agent, select only Composer
 - Use custom slash command `/commit` to commit the dark mode implementation
+
+### 3.5. Review Changes
+- Click the "Review Changes" button at the top right of the agent window
+- Showcase that you can see all changes across files in a single window, much like you would in a code review tool
 
 ### 4. Browser - Extend Feature with Themes
 - Open a new agent tab
