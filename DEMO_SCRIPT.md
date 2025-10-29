@@ -64,13 +64,12 @@
 - Watch multiple implementations happen simultaneously
 - Click on the different model buttons in the chat to view the different implementations 
 - Select Composer's result, click "Apply All" in the bottom right
-- Manually open up the browser to show the results of the dark mode implementation
-- Open up a new agent, select only Composer
-- Use custom slash command `/commit` to commit the dark mode implementation
 
 ### 3.5. Review Changes
 - Click the "Review Changes" button at the top right of the agent window
 - Showcase that you can see all changes across files in a single window, much like you would in a code review tool
+- Manually open up the browser to show the results of the dark mode implementation
+- Use custom slash command `/commit` to commit the dark mode implementation
 
 ### 4. Browser - Extend Feature with Themes
 - Open a new agent tab
@@ -85,12 +84,7 @@
 - Run the prompt to demonstrate the theme updates in real time via the browser
 - Use custom slash command `/commit` to commit the theme system changes
 
-### 5. Diff View
-- During the process, Diff View appears
-- Show how to review local diffs without switching files
-- Highlight: Faster and easier code review
-
-### 6. Browser Screenshots & PR with Images
+### 5. Browser Screenshots & PR with Images
 - Open a new agent tab
 - **Task:** Take screenshots of all themes and create a PR with inline images
 - **Deep Link:** [Screenshots & PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20all%20four%20themes%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
@@ -106,14 +100,10 @@
 - **Show:** Images displaying inline in the GitHub PR description
 - Highlight: Programmatic screenshot workflow without manual drag-and-drop
 
-### 7. Voice Mode
+### 6. Voice Mode
 - Use voice to quickly adjust code
 - Demonstrate: "Turn speech into prompts instantly"
 - Show iteration speed improvement
-
-### 8. Commit & PR
-- Use custom slash command `/create-pr` to create a pull request
-- Open up GH, see the generated commit
 
 ## Features Covered
 - ✅ Agent View
