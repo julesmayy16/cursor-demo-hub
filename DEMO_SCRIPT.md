@@ -83,6 +83,14 @@
 - IMPORTANT: Click the Globe icon in the chat and select the browser tab
 - Run the prompt to demonstrate the theme updates in real time via the browser
 - Use custom slash command `/commit` to commit the theme system changes
+### 4.5 Browser Select
+- **Task:** Use Blink to select and modify the sidebar padding
+- Select the Sidebar element using
+- **Deep Link:** [Increase Sidebar Padding](cursor://anysphere.cursor-deeplink/prompt?text=Increase%20the%20left%20and%20right%20padding%20of%20the%20sidebar%20by%2012px.)
+- **Prompt Text:**
+  ```
+  Increase the Sidebar's left and right padding of the sidebar by 12px.
+  ```
 
 ### 5. Browser Screenshots & PR with Images
 - Open a new agent tab
