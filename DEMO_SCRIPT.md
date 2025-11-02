@@ -16,12 +16,16 @@
 - Explain that this is a blog application we built
 - Show the current state before we make changes
 
-### 1. Agent View (Start)
+### 1. Introducing Composer
+- **What is Composer?** Cursor's new agent model specifically built for coding
+- **Blog Post:** https://cursor.com/blog/composer
+
+### 2. Agent Layout (Start)
 - **Start in Normal Editor View** - Begin demonstration in standard editor interface
-- **Switch to Agent View** - Located at top-middle of interface:
+- **Switch to Agent Layout** - Located at top-middle of interface:
 **Screenshot
 
-### 2. Worktrees
+### 3. Parallel Agents (Worktrees)
 - Click on the toggle at the bottom left underneath chat window, select Worktree
 
 - **Task:** Implement multiple front-end features at once and create PRs
@@ -49,10 +53,10 @@
 - Add a banner at the bottom that says Made with love :heart-emoji: from Cursor, with a link to the Cursor website; banner should be sticky and immediately visible
 - Add a scroll to the top button at the bottom right of the page
 
-### 2.5. Reset - Clean Workspace
+### 3.5. Reset - Clean Workspace
 - Use custom slash command `/reset` to clean the workspace
 
-### 3. Best of N - Implement Dark Mode
+### 4. Best of N (Worktrees) - Implement Dark Mode
 - Click on the toggle at the bottom left underneath chat window, select Worktree
 - Select 3-4 models to run in parallel
 - **Task:** Implement dark mode
@@ -65,13 +69,13 @@
 - Click on the different model buttons in the chat to view the different implementations 
 - Select Composer's result, click "Apply All" in the bottom right
 
-### 3.5. Review Changes
+### 4.5. Review Changes
 - Click the "Review Changes" button at the top right of the agent window
 - Showcase that you can see all changes across files in a single window, much like you would in a code review tool
 - Manually open up the browser to show the results of the dark mode implementation
 - Use custom slash command `/commit` to commit the dark mode implementation
 
-### 4. Browser - Extend Feature with Themes
+### 5. Browser - Extend Feature with Themes
 - Open a new agent tab
 - **Task:** Add orange and purple theme options
 - **Deep Link:** [Add Themes](cursor://anysphere.cursor-deeplink/prompt?text=Add%20orange%20and%20purple%20theme%20options%20to%20the%20theme%20system.%20Follow%20the%20instructions%20in%20%40MULTI_THEME_PRD%20and%20%40MULTI_THEME_PLAN)
@@ -83,7 +87,7 @@
 - IMPORTANT: Click the Globe icon in the chat and select the browser tab
 - Run the prompt to demonstrate the theme updates in real time via the browser
 - Use custom slash command `/commit` to commit the theme system changes
-### 4.5 Browser Select
+### 5.5 Browser Select
 - **Task:** Use Blink to select and modify the sidebar padding
 - Select the Sidebar element using
 - **Deep Link:** [Increase Sidebar Padding](cursor://anysphere.cursor-deeplink/prompt?text=Increase%20the%20left%20and%20right%20padding%20of%20the%20sidebar%20by%2012px.)
@@ -92,7 +96,7 @@
   Increase the Sidebar's left and right padding of the sidebar by 12px.
   ```
 
-### 5. Browser Screenshots & PR with Images
+### 6. Browser Screenshots & PR with Images
 - Open a new agent tab
 - **Task:** Take screenshots of all themes and create a PR with inline images
 - **Deep Link:** [Screenshots & PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20all%20four%20themes%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
@@ -108,13 +112,13 @@
 - **Show:** Images displaying inline in the GitHub PR description
 - Highlight: Programmatic screenshot workflow without manual drag-and-drop
 
-### 6. Voice Mode
+### 7. Voice Mode
 - Use voice to quickly adjust code
 - Demonstrate: "Turn speech into prompts instantly"
 - Show iteration speed improvement
 
 ## Features Covered
-- ✅ Agent View
+- ✅ Agent Layout
 - ✅ Worktrees (WIP)
 - ✅ Best of N
 - ✅ Built-in Browser
