@@ -15,6 +15,7 @@ const config: Config = {
         "dev-secondary": "rgba(6, 48, 43, 0.6)",
         "dev-bg": "#FEFCF6",
         "dev-card": "#ffffff",
+        "dev-peach": "var(--color-dev-peach)",
       },
       fontFamily: {
         "mono": ["JetBrains Mono", "monospace"],

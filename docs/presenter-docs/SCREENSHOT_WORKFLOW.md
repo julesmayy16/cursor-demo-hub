@@ -24,24 +24,20 @@ Use the browser tools to navigate your app and capture screenshots:
 - Navigate to `http://localhost:3000`
 - **Important:** Since theme preference is saved in localStorage, explicitly select light mode if it's not already active
 - Take screenshot: `theme-light.png`
-- Change theme to dark mode (using the theme selector)
+- Change theme to dark mode (using the theme toggle)
 - Take screenshot: `theme-dark.png`
-- Change theme to purple mode
-- Take screenshot: `theme-purple.png`
-- Change theme to orange mode
-- Take screenshot: `theme-orange.png`
 
 ### 2. Save Screenshots Locally
 
 The browser saves screenshots to a temp directory. Copy them to your project root:
 
 ```bash
-cp /var/folders/[temp-path]/theme-*.png .
+cp /var/folders/[temp-path]/theme-light.png /var/folders/[temp-path]/theme-dark.png .
 ```
 
 Verify they exist:
 ```bash
-ls -lh theme-*.png
+ls -lh theme-light.png theme-dark.png
 ```
 
 ### 3. Stage Screenshots
@@ -49,7 +45,7 @@ ls -lh theme-*.png
 Add the screenshot files to git:
 
 ```bash
-git add theme-*.png
+git add theme-light.png theme-dark.png
 ```
 
 ### 4. Commit Screenshots
@@ -83,8 +79,6 @@ https://github.com/<owner>/<repo>/blob/<branch-name>/<image-path>?raw=true
 
 ![Light Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-light.png?raw=true)
 ![Dark Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-dark.png?raw=true)
-![Purple Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-purple.png?raw=true)
-![Orange Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-orange.png?raw=true)
 ```
 
 ### Using GitHub CLI
@@ -101,8 +95,6 @@ gh pr create \
 
 ![Light Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-light.png?raw=true)
 ![Dark Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-dark.png?raw=true)
-![Purple Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-purple.png?raw=true)
-![Orange Theme](https://github.com/sashakhad/cursor-2.0-demo-repo/blob/demo-run-2/theme-orange.png?raw=true)
 EOF
 )"
 ```
@@ -159,6 +151,6 @@ https://github.com/<owner>/<repo>/blob/<branch-name>/<file-path>?raw=true
 To create a deep link that prompts the agent to follow this workflow:
 
 ```
-cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20all%20themes%20using%20browser%20automation%2C%20commit%20them%20to%20the%20PR%20branch%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW
+cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20light%20and%20dark%20mode%20using%20browser%20automation%2C%20commit%20them%20to%20the%20PR%20branch%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW
 ```
 

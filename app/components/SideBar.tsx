@@ -30,6 +30,15 @@ const Sidebar = ({ groupedPosts }: SidebarProps) => {
     setInputValue(e.target.value);
   };
 
+  // Native input event for browser automation compatibility (Playwright/Puppeteer)
+  const handleNativeInput = (e: React.FormEvent<HTMLInputElement>) => {
+    const value = e.currentTarget.value;
+    if (!isSidebarOpen) {
+      setFilter(value);
+    }
+    setInputValue(value);
+  };
+
   const handleMonthClick = (year: string, month: string) => {
     const dateFilter = `date:${year}-${month}`;
     setFilter(dateFilter);
@@ -73,6 +82,7 @@ const Sidebar = ({ groupedPosts }: SidebarProps) => {
           <Input
             value={inputValue}
             onChange={handleInputChange}
+            onInput={handleNativeInput}
             placeholder="search posts, tags, keywords..."
           />
           <Button

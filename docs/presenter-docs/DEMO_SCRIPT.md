@@ -75,37 +75,40 @@
 - Manually open up the browser to show the results of the dark mode implementation
 - Use custom slash command `/commit` to commit the dark mode implementation
 
-### 5. Browser - Extend Feature with Themes
+### 5. Browser - Test Dark Mode
 - Open a new agent tab
-- **Task:** Add orange and purple theme options
-- **Deep Link:** [Add Themes](cursor://anysphere.cursor-deeplink/prompt?text=Add%20orange%20and%20purple%20theme%20options%20to%20the%20theme%20system.%20Follow%20the%20instructions%20in%20%40MULTI_THEME_PRD%20and%20%40MULTI_THEME_PLAN)
-
-- **Prompt Text:**
-  ```
-  Add orange and purple theme options to the theme system. Follow the instructions in @MULTI_THEME_PRD and @MULTI_THEME_PLAN
-  ```
+- **Task:** Use the browser to test the dark mode implementation
 - IMPORTANT: Click the Globe icon in the chat and select the browser tab
-- Run the prompt to demonstrate the theme updates in real time via the browser
-- Use custom slash command `/commit` to commit the theme system changes
-### 5.5 Browser Select
-- **Task:** Use Blink to select and modify the sidebar padding
-- Select the Sidebar element using
-- **Deep Link:** [Increase Sidebar Padding](cursor://anysphere.cursor-deeplink/prompt?text=Increase%20the%20left%20and%20right%20padding%20of%20the%20sidebar%20by%2012px.)
-- **Prompt Text:**
-  ```
-  Increase the Sidebar's left and right padding of the sidebar by 12px.
-  ```
+- Toggle between light and dark mode to verify the theme system works correctly
+- Use custom slash command `/commit` to commit any changes
+
+### 5.5 Design Sidebar
+- **Task:** Use the Design Sidebar to modify styles visually
+- Open the Design Sidebar from the browser panel
+
+#### Right-align Posts
+1. Click on the posts container
+2. Change alignment to right
+3. Click Apply
+
+#### Change Post Title Color
+1. Click on a post title
+2. Change text color to `dev-peach`
+3. Click Apply
+
+#### Reset
+- Use custom slash command `/reset` to clean the workspace and revert changes
 
 ### 6. Browser Screenshots & PR with Images
 - Open a new agent tab
-- **Task:** Take screenshots of all themes and create a PR with inline images
-- **Deep Link:** [Screenshots & PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20all%20four%20themes%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
+- **Task:** Take screenshots of light and dark mode and create a PR with inline images
+- **Deep Link:** [Screenshots & PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20light%20and%20dark%20mode%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
 - **Prompt Text:**
   ```
-  Take screenshots of all four themes using browser automation, commit them, and create a PR with the screenshots displaying inline. Follow @SCREENSHOT_WORKFLOW and use @Browser. Follow guidelines in /create-pr
+  Take screenshots of light and dark mode using browser automation, commit them, and create a PR with the screenshots displaying inline. Follow @SCREENSHOT_WORKFLOW and use @Browser. Follow guidelines in /create-pr
   ```
 - The agent will:
-  1. Capture screenshots of each theme using browser automation
+  1. Capture screenshots of light and dark mode using browser automation
   2. Save them to the project directory
   3. Commit them to the current branch
   4. Create a PR with properly formatted image URLs

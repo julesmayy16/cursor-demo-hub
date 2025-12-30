@@ -56,5 +56,8 @@ storybook-static
 # cursor
 .cursor/screenshots/
 
+# demo screenshots
+/screenshots/
+
 # os
 Thumbs.db

@@ -5,6 +5,7 @@
 :root {
   --color-dev-accent: #06302B;
   --color-dev-primary: #06302B;
+  --color-dev-peach: #FFE5B4;
 }
 
 @layer base {
