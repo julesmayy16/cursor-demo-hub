@@ -20,7 +20,7 @@ Prepare a clean demo environment by creating a new timestamped demo-run branch a
    - This will handle:
      - Killing processes on ports 3000-3009 
      - Starting the dev server
-     - Opening Chrome at localhost:3000
+     - Opening Cursor's browser at localhost:3000
 
 ## Example Flow
 
