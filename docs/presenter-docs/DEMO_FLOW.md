@@ -2,11 +2,17 @@
 
 ## 1. [Introducing Composer](https://cursor.com/blog/composer)
 
-> Composer is our new agent model designed for software engineering intelligence and speed. On our benchmarks, the model achieves frontier coding results with generation speed four times faster than similar models.
+> Composer is our new agent model designed for software engineering intelligence and speed.
+>
+> On our benchmarks, the model achieves frontier coding results with generation speed four times faster than similar models.
 
 ### 1.5. Introduce the Blog App
 
-> This is a simple blog app built with Next.js, React, and Tailwind CSS. It has a sidebar for browsing posts by year and month, a search bar for filtering, and individual post pages. We'll use it as a playground to demonstrate Cursor's features.
+> This is a simple blog app built with Next.js, React, and Tailwind CSS. It has a sidebar for browsing posts by year and month, a search bar for filtering, and individual post pages.
+>
+> We'll use it as a playground to demonstrate Cursor's features.
+
+Use `/start-demo` to launch the development server and open the app in browser.
 
 Show the current blog application and explain what we'll be building
 
@@ -36,13 +42,17 @@ Open the Design Sidebar to modify styles visually:
 
 ### 2.5. [Slash Commands](https://cursor.com/docs/agent/chat/commands)
 
-> Custom commands allow you to create reusable workflows that can be triggered with a simple `/` prefix in the chat input box. These commands help standardize processes across your team and make common tasks more efficient.
+> Custom commands allow you to create reusable workflows that can be triggered with a simple `/` prefix in the chat input box.
+>
+> These commands help standardize processes across your team and make common tasks more efficient.
 
 Use `/reset` to undo all changes and restore the workspace to a clean state.
 
 ## 3. [Plan Mode](https://cursor.com/docs/agent/planning#plan-mode)
 
-> Plan Mode creates detailed implementation plans before writing any code. Agent researches your codebase, asks clarifying questions, and generates a reviewable plan you can edit before building.
+> Plan Mode creates detailed implementation plans before writing any code.
+>
+> Agent researches your codebase, asks clarifying questions, and generates a reviewable plan you can edit before building.
 
 Enable Plan Mode in the agent settings
 
@@ -50,7 +60,9 @@ Enable Plan Mode in the agent settings
 
 ## 4. [Parallel Agents (Worktrees)](https://cursor.com/docs/configuration/worktrees)
 
-> This feature allows you to run multiple agents locally in parallel. Parallel agents run in their own worktree, allowing them to make edits, or build and test code without interfering with each other.
+> This feature allows you to run multiple agents locally in parallel.
+>
+> Parallel agents run in their own worktree, allowing them to make edits, or build and test code without interfering with each other.
 
 Select Worktree mode at bottom left
 
@@ -66,10 +78,20 @@ Use custom slash command `/reset` to clean workspace
 ## 5. [Best of N (Worktrees)](https://cursor.com/docs/configuration/worktrees)
 
 > This feature allows you to run a single prompt across multiple models at once.
+>
+> Use cases: learning each model's strengths, tackling high-priority bugs where you want multiple perspectives, or comparing architectural approaches.
 
 Select 3-4 models in Worktree mode
 
 - [Implement Dark Mode](cursor://anysphere.cursor-deeplink/prompt?text=Implement%20dark%20mode%20and%20add%20a%20theme%20toggle.%20Follow%20the%20the%20%40DARK_MODE_PRD%20and%20%40DARK_MODE_PLAN)
+
+### 5.5. [Judging](https://forum.cursor.com/t/cursor-2-2-multi-agent-judging/145826)
+
+> After all parallel agents finish, Cursor evaluates each solution and picks a winner. The selected agent gets a comment explaining why it was chosen.
+>
+> This helps when you're exploring different approaches to the same problem. Instead of manually comparing outputs, you get a recommendation with reasoning.
+>
+> Judging only happens after all parallel agents have completed.
 
 ## 6. Review Changes
 Click "Review Changes" at top right, then `/commit`
@@ -80,7 +102,9 @@ Click "Review Changes" at top right, then `/commit`
 
 ## 8. [Debug Mode](https://cursor.com/docs/agent/modes#debug)
 
-> Debug Mode helps you find root causes and fix tricky bugs that are hard to reproduce or understand. Instead of immediately writing code, the agent generates hypotheses, adds log statements, and uses runtime information to pinpoint the exact issue before making a targeted fix.
+> Debug Mode helps you find root causes and fix tricky bugs that are hard to reproduce or understand.
+>
+> Instead of immediately writing code, the agent generates hypotheses, adds log statements, and uses runtime information to pinpoint the exact issue before making a targeted fix.
 
 Enable Debug Mode in the agent settings
 
