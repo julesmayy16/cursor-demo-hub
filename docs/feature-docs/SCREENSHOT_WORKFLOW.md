@@ -153,4 +153,3 @@ To create a deep link that prompts the agent to follow this workflow:
 ```
 cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20light%20and%20dark%20mode%20using%20browser%20automation%2C%20commit%20them%20to%20the%20PR%20branch%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW
 ```
-

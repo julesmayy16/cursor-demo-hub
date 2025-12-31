@@ -140,3 +140,4 @@ Cursor Shortcuts CheatSheet:
 
 Command + P (search for and open files)
 Command + Shift + P (search for ...? like running MD preview)
+
