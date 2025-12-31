@@ -2,7 +2,15 @@
 
 Pick and choose individual features to demo without following a specific sequence.
 
-## Available Features
+## Cursor 101 - Getting Started
+
+| Feature | Description | Files |
+|---------|-------------|-------|
+| [Ask Mode](./Ask-Mode.md) | Explore and understand codebases without making changes | [text](./Ask-Mode.md) \| [screenshots](./Ask-Mode.screenshots.md) |
+| [Layout Walkthrough](./Layout-Walkthrough.md) | Navigate the IDE layout and customize your workspace | [text](./Layout-Walkthrough.md) \| [screenshots](./Layout-Walkthrough.screenshots.md) |
+| [Tab + Quick Edit](./Tab-Quick-Edit.md) | AI autocomplete and surgical code edits with Cmd+K | [text](./Tab-Quick-Edit.md) \| [screenshots](./Tab-Quick-Edit.screenshots.md) |
+
+## Advanced Features
 
 | Feature | Description | Files |
 |---------|-------------|-------|
