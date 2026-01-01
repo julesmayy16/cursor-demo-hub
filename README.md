@@ -48,15 +48,15 @@ gh auth login
 ### Clone This Repository
 
 ```bash
-gh repo clone anysphere/TAM-Cursor-Demos
-cd TAM-Cursor-Demos
+gh repo clone fieldsphere/cursor-demos
+cd cursor-demos
 ```
 
 ### Alternative: Clone via Git
 
 ```bash
-git clone https://github.com/anysphere/TAM-Cursor-Demos.git
-cd TAM-Cursor-Demos
+git clone https://github.com/fieldsphere/cursor-demos.git
+cd cursor-demos
 ```
 
 ## Project Structure

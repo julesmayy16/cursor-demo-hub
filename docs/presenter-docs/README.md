@@ -16,7 +16,7 @@ Welcome to the **Cursor Demo Repository**—a standardized, scalable resource fo
 **Option 1: Clone via terminal**
 
 ```bash
-git clone https://github.com/anysphere/TAM-Cursor-Demos.git
+git clone https://github.com/fieldsphere/cursor-demos.git
 cd TAM-Cursor-Demos
 cursor .
 ```
