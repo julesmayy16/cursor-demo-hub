@@ -91,4 +91,49 @@
   .prose h3 {
     @apply text-xl lg:text-2xl;
   }
+  
+  /* Deep links - cursor:// protocol links get distinctive styling */
+  .prose a[href^="cursor://"] {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium no-underline;
+    background-color: color-mix(in srgb, var(--color-dev-accent) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-dev-accent) 25%, transparent);
+    transition: all 0.15s ease;
+  }
+  
+  .prose a[href^="cursor://"]:hover {
+    @apply no-underline;
+    background-color: color-mix(in srgb, var(--color-dev-accent) 20%, transparent);
+    border-color: color-mix(in srgb, var(--color-dev-accent) 40%, transparent);
+  }
+  
+  .prose a[href^="cursor://"]::before {
+    content: "▶";
+    @apply text-xs opacity-70;
+  }
+
+  /* Collapsible sections - details/summary elements styled as headers */
+  .prose details {
+    @apply my-6;
+  }
+
+  .prose details summary {
+    @apply text-2xl lg:text-3xl font-bold text-dev-text cursor-pointer list-none mb-4 mt-8;
+  }
+
+  .prose details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .prose details summary::before {
+    content: "▶ ";
+    @apply text-lg mr-2 inline-block transition-transform duration-200;
+  }
+
+  .prose details[open] summary::before {
+    content: "▼ ";
+  }
+
+  .prose details > *:not(summary) {
+    @apply pl-0;
+  }
 }

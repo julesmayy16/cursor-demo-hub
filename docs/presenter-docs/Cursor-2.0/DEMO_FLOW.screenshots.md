@@ -12,23 +12,12 @@
 >
 > We'll use it as a playground to demonstrate Cursor's features.
 
-Use `/start-demo` to launch the development server and open the app in browser.
+Use [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) to launch the development server and open the app in browser.
 
 ![Start demo command](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/ea20922f-a6c4-46ba-858e-99853af00c4f/ascreenshot_773ad3dcdc3a4fe282d48cec640e128b_text_export.jpeg)
 
 Show the current blog application and explain what we'll be building
 
-> **📝 Note: Deep Links**
->
-> Throughout this demo, clickable links like `[Use @Browser to test the blog app]` open a "Create chat with prompt" dialog that pre-fills the prompt. Click **"Create Chat"** to start the agent.
-
-**Click a deep link in the documentation:**
-
-![Click deep link](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8a1918f3-c19f-466a-8045-04ab9f81bd05/ascreenshot_cffdab68a0464b6a96be0343275374c2_text_export.jpeg)
-
-**The "Create chat with prompt" dialog appears with the prompt pre-filled:**
-
-![Create Chat dialog example](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/e2312cfc-ccf5-4035-b895-96b641d760d7/ascreenshot_22e0f9274761456589ffe740e329f627_text_export.jpeg)
 
 ## 2. [Browser](https://cursor.com/docs/agent/browser#browser-capabilities)
 
@@ -37,8 +26,6 @@ Show the current blog application and explain what we'll be building
 **Click the deep link to test the blog app:**
 
 - [Use @Browser to test the blog app](cursor://anysphere.cursor-deeplink/prompt?text=Use%20%40Browser%20to%20test%20the%20following%3A%0A%0A1.%20Search%20for%20%22JavaScript%22%20and%20verify%20matching%20posts%20appear%0A2.%20Click%20on%20a%20post%20and%20confirm%20the%20content%20loads%0A3.%20Navigate%20back%20and%20test%20the%20year%20filter%20%28expand%202025%2C%20click%20a%20month%29%0A4.%20Take%20a%20screenshot%20of%20the%20filtered%20results.%20Save%20them%20to%20the%20%60screenshots%2F%60%20directory%20so%20we%20can%20see%20them.%0A5.%20Check%20the%20console%20for%20any%20errors)
-
-![Click the deep link](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8a1918f3-c19f-466a-8045-04ab9f81bd05/ascreenshot_cffdab68a0464b6a96be0343275374c2_text_export.jpeg)
 
 **Browser testing in action - the agent navigates the app, filters by month, and saves screenshots:**
 

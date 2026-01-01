@@ -90,5 +90,5 @@ Open the Design Sidebar to modify styles visually:
 
 ## Cleanup
 
-Use `/reset` to undo all changes and restore the workspace to a clean state.
+Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo all changes and restore the workspace to a clean state.
 

@@ -1,33 +1,46 @@
-# Cursor Features - Modular Demo Guides
+# Cursor Features
 
-Pick and choose individual features to demo without following a specific sequence.
+Modular demo guides for individual Cursor features. Pick any feature to demo without following a specific sequence.
 
-## Cursor 101 - Getting Started
+Each feature includes two versions:
+- **Text-only** — Quick reference, no images
+- **With screenshots** — Step-by-step visual guide
 
-| Feature | Description | Files |
-|---------|-------------|-------|
-| [Ask Mode](./Ask-Mode.md) | Explore and understand codebases without making changes | [text](./Ask-Mode.md) \| [screenshots](./Ask-Mode.screenshots.md) |
-| [Layout Walkthrough](./Layout-Walkthrough.md) | Navigate the IDE layout and customize your workspace | [text](./Layout-Walkthrough.md) \| [screenshots](./Layout-Walkthrough.screenshots.md) |
-| [Tab + Quick Edit](./Tab-Quick-Edit.md) | AI autocomplete and surgical code edits with Cmd+K | [text](./Tab-Quick-Edit.md) \| [screenshots](./Tab-Quick-Edit.screenshots.md) |
+Before demoing, run [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) to launch the development server.
+
+---
+
+## Agent
+
+The command center for AI-powered coding. Agent Chat is the core interface, with specialized modes for different workflows.
+
+| Feature | Description |
+|---------|-------------|
+| [Agent Chat](/presenter-docs/Features/Agent/Agent-Chat/Agent-Chat) | Core agent interface — context, models, and code changes |
+| [Ask Mode](/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode) | Explore codebases without making changes (read-only) |
+| [Plan Mode](/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode) | Create implementation plans before writing code |
+| [Debug Mode](/presenter-docs/Features/Agent/Debug-Mode/Debug-Mode) | Hypothesis-driven debugging to find root causes |
+| [Voice Mode](/presenter-docs/Features/Agent/Voice-Mode/Voice-Mode) | Speak prompts instead of typing |
+
+---
+
+## Editor Features
+
+AI-powered features integrated directly into the code editor.
+
+| Feature | Description |
+|---------|-------------|
+| [Layout Walkthrough](/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough) | Navigate the IDE and customize your workspace |
+| [Tab + Quick Edit](/presenter-docs/Features/Tab-Quick-Edit/Tab-Quick-Edit) | AI autocomplete and inline edits with Cmd+K |
+
+---
 
 ## Advanced Features
 
-| Feature | Description | Files |
-|---------|-------------|-------|
-| [Browser](./Browser.md) | Navigate, test, and take screenshots with built-in browser + Design Sidebar for visual editing | [text](./Browser.md) \| [screenshots](./Browser.screenshots.md) |
-| [Plan Mode](./Plan-Mode.md) | Create detailed implementation plans before writing code | [text](./Plan-Mode.md) \| [screenshots](./Plan-Mode.screenshots.md) |
-| [Worktrees](./Worktrees.md) | Run parallel agents and compare multiple model implementations (Best of N) | [text](./Worktrees.md) \| [screenshots](./Worktrees.screenshots.md) |
-| [Debug Mode](./Debug-Mode.md) | Find root causes with hypothesis-driven debugging | [text](./Debug-Mode.md) \| [screenshots](./Debug-Mode.screenshots.md) |
-| [Bugbot](./Bugbot.md) | Automated PR review that catches bugs and security issues | [text](./Bugbot.md) \| [screenshots](./Bugbot.screenshots.md) |
-| [Voice Mode](./Voice-Mode.md) | Turn speech into prompts for rapid iteration | [text](./Voice-Mode.md) \| [screenshots](./Voice-Mode.screenshots.md) |
+Powerful capabilities for complex workflows and team collaboration.
 
-## Usage
-
-Each feature has two versions:
-- **`.md`** - Text-only guide for quick reference
-- **`.screenshots.md`** - Full guide with step-by-step screenshots
-
-## Prerequisites
-
-Before demoing any feature, run `/start-demo` to launch the development server and open the blog app.
-
+| Feature | Description |
+|---------|-------------|
+| [Browser](/presenter-docs/Features/Browser/Browser) | Built-in browser for testing and screenshots |
+| [Worktrees](/presenter-docs/Features/Worktrees/Worktrees) | Run parallel agents in isolated git worktrees |
+| [Bugbot](/presenter-docs/Features/Bugbot/Bugbot) | Automated PR review that catches bugs and security issues |

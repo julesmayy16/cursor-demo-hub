@@ -1,6 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useFilter } from "../context/FilterContext";
 import { format, parse, differenceInDays, formatDistanceToNow } from "date-fns";
 import Container from "./Container";
@@ -24,21 +26,32 @@ function PostLink({
 }: PostLinkProps) {
   const { setFilter } = useFilter();
   const [showAllTags, setShowAllTags] = useState(false);
-
+  
+  // Use a stable initial format that doesn't depend on current time
+  // This prevents hydration mismatches - we'll update it in useEffect
   const parsedDate = parse(date, "yyyy.MM.dd", new Date());
-  const currentYear = new Date().getFullYear();
-  const postYear = parsedDate.getFullYear();
-  const daysAgo = differenceInDays(new Date(), parsedDate);
+  const stableInitialDate = format(parsedDate, "MMM d, yyyy");
+  
+  const [formattedDate, setFormattedDate] = useState<string>(stableInitialDate);
 
-  const isToday = new Date().toDateString() === parsedDate.toDateString();
+  useEffect(() => {
+    const parsedDate = parse(date, "yyyy.MM.dd", new Date());
+    const currentYear = new Date().getFullYear();
+    const postYear = parsedDate.getFullYear();
+    const daysAgo = differenceInDays(new Date(), parsedDate);
 
-  const formattedDate = isToday
-    ? "today"
-    : daysAgo < 14
-      ? formatDistanceToNow(parsedDate, { addSuffix: true })
-      : currentYear === postYear
-        ? format(parsedDate, "MMM d")
-        : format(parsedDate, "MMM d, yyyy");
+    const isToday = new Date().toDateString() === parsedDate.toDateString();
+
+    const formatted = isToday
+      ? "today"
+      : daysAgo < 14
+        ? formatDistanceToNow(parsedDate, { addSuffix: true })
+        : currentYear === postYear
+          ? format(parsedDate, "MMM d")
+          : format(parsedDate, "MMM d, yyyy");
+
+    setFormattedDate(formatted);
+  }, [date]);
 
   return (
     <Container variant="post">

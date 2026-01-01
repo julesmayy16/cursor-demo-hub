@@ -136,5 +136,5 @@ Select 3-4 models in Worktree mode
 
 ## Cleanup
 
-Use `/reset` to undo all changes and restore the workspace to a clean state.
+Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo all changes and restore the workspace to a clean state.
 

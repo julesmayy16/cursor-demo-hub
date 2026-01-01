@@ -6,11 +6,33 @@
 
 **Docs:** [Tab Overview](https://docs.cursor.com/tab/overview) | [Inline Edit](https://docs.cursor.com/en/inline-edit/overview)
 
+---
+
+## How Tab Works
+
+Cursor indexes your entire codebase to understand:
+- Your project's conventions and patterns
+- Existing components and utilities
+- Import structures and dependencies
+
+**Tab is a specialized Cursor model for autocompletion.** The more you use it, the better it becomes as you inject intent by accepting (`Tab`) or rejecting (`Escape`) suggestions.
+
+### Tab Capabilities
+
+| Capability | Description |
+|------------|-------------|
+| **Multi-line edits** | Modify multiple lines at once |
+| **Auto-imports** | Add import statements when missing |
+| **Cross-file jumps** | Jump within and across files for coordinated edits |
+| **Contextual awareness** | Suggestions based on recent changes, linter errors, and accepted edits |
+
+---
+
 ## Tab Autocomplete
 
 ### Overview
 
-Tab predicts what you want to write next and suggests complete code blocks. The more you use it, the more it learns your style.
+Tab predicts what you want to write next and suggests complete code blocks. The more you use it, the more it learns your style—each `Tab` accept or `Escape` reject teaches the model your preferences.
 
 ### Demo
 
@@ -32,10 +54,11 @@ Open an empty file (like `Footer.tsx`) and start typing:
 
 ### What to Highlight
 
-- Contextual awareness—knows what file you're in
-- Uses your existing components and patterns
-- Gets smarter the more you use it
-- Feels like "reading your mind" for power users
+- **Codebase understanding:** Tab uses full codebase context to understand conventions
+- **Contextual awareness:** Knows what file you're in, your recent changes, and linter errors
+- **Learns your style:** The more you use it, the more it adapts to your preferences
+- **Uses your existing patterns:** Suggestions incorporate your components and utilities
+- **Feels like mind-reading:** Power users report Tab predicting exactly what they want
 
 ---
 
@@ -65,6 +88,7 @@ Select code and press `Cmd+K` to make targeted edits using natural language. Onl
 ## Best Practices
 
 - **Tab:** Start with hints in comments or partial code to guide suggestions
+- **Accept/Reject signals:** Each `Tab` accept or `Escape` reject teaches the model your preferences
 - **Quick Edit:** Be specific about what you want changed
 - **Combine them:** Use Tab for building, Quick Edit for refining
 

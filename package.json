@@ -20,7 +20,8 @@
     "tags:collect": "node scripts/posts/collectTags.mjs",
     "kill:ports": "for port in {3000..3009}; do lsof -ti:$port | xargs kill -9 2>/dev/null; done",
     "dev:all": "scripts/dev-all.sh 3000",
-    "setup": "scripts/setup.sh"
+    "setup": "scripts/setup.sh",
+    "docs:dev": "echo 'Run pnpm dev and visit http://localhost:3000/presenter-docs'"
   },
   "dependencies": {
     "clsx": "2.1.1",
@@ -29,9 +30,14 @@
     "next": "15.5.5",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "rehype-raw": "^7.0.0",
+    "rehype-stringify": "^10.0.1",
     "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
     "remark-html": "^16.0.1",
-    "tailwind-merge": "3.3.1"
+    "remark-rehype": "^11.1.2",
+    "tailwind-merge": "3.3.1",
+    "valibot": "^1.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
@@ -39,6 +45,7 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "autoprefixer": "^10.4.21",
+    "baseline-browser-mapping": "^2.9.11",
     "eslint": "9.37.0",
     "eslint-config-next": "15.5.5",
     "eslint-config-prettier": "10.1.8",

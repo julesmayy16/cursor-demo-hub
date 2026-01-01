@@ -12,7 +12,7 @@
 >
 > We'll use it as a playground to demonstrate Cursor's features.
 
-Use `/start-demo` to launch the development server and open the app in browser.
+Use [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) to launch the development server and open the app in browser.
 
 Show the current blog application and explain what we'll be building
 
@@ -46,7 +46,7 @@ Open the Design Sidebar to modify styles visually:
 >
 > These commands help standardize processes across your team and make common tasks more efficient.
 
-Use `/reset` to undo all changes and restore the workspace to a clean state.
+Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo all changes and restore the workspace to a clean state.
 
 ## 3. [Plan Mode](https://cursor.com/docs/agent/planning#plan-mode)
 
@@ -73,7 +73,7 @@ Select Worktree mode at bottom left
 - [Add Scroll-to-Top Button](cursor://anysphere.cursor-deeplink/prompt?text=Add%20a%20scroll-to-top%20button%20fixed%20at%20the%20bottom-right%20that%20appears%20after%20scrolling%20and%20returns%20to%20top%20on%20click.)
 
 ### 4.5. Reset
-Use custom slash command `/reset` to clean workspace
+Use custom slash command [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to clean workspace
 
 ## 5. [Best of N (Worktrees)](https://cursor.com/docs/configuration/worktrees)
 

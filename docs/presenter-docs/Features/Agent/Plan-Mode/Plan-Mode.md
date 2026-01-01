@@ -28,5 +28,5 @@ Enable Plan Mode in the agent settings (click Agent dropdown, select "Plan")
 
 ## Cleanup
 
-Use `/reset` to undo all changes and restore the workspace to a clean state.
+Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo all changes and restore the workspace to a clean state.
 
