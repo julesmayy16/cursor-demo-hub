@@ -5,6 +5,7 @@ import gfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
+import { processIncludes } from "./remark-include";
 
 export interface DocEntry {
   slug: string[];
@@ -122,14 +123,20 @@ export function getAllDocSlugs(): string[][] {
  * Get doc content by slug
  */
 export async function getDocData(slug: string[]): Promise<DocData | null> {
-  const filePath = `${path.join(docsDirectory, ...slug)  }.md`;
+  const filePath = `${path.join(docsDirectory, ...slug)}.md`;
 
   if (!fs.existsSync(filePath)) {
     return null;
   }
 
-  const content = fs.readFileSync(filePath, "utf8");
-  const title = extractTitle(content, slug[slug.length - 1] || "");
+  const rawContent = fs.readFileSync(filePath, "utf8");
+  const title = extractTitle(rawContent, slug[slug.length - 1] || "");
+
+  // Process @include directives before parsing markdown
+  const { content } = processIncludes(rawContent, {
+    baseDir: process.cwd(),
+    stripFirstHeading: true,
+  });
 
   const processedContent = await remark()
     .use(gfm)
