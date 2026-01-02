@@ -1,15 +1,12 @@
-# Cursor 301
+# Cursor 301 (WIP)
 
 *Placeholder for Cursor 301 demo materials.*
 
-## Overview
+## Topics
 
-This directory will contain advanced-level Cursor demo content.
-
-## Contents
-
-- [ ] Demo flow document
-- [ ] Screenshots (optional)
-- [ ] Supporting materials
+- [ ] Hooks
+- [ ] MCPs
+- [ ] Cloud Agents
+- [ ] Worktrees
 
 

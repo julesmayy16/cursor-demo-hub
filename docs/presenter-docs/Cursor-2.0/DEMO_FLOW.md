@@ -14,6 +14,8 @@
 
 Use [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) to launch the development server and open the app in browser.
 
+![Start demo command](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/ea20922f-a6c4-46ba-858e-99853af00c4f/ascreenshot_773ad3dcdc3a4fe282d48cec640e128b_text_export.jpeg)
+
 Show the current blog application and explain what we'll be building
 
 ---
@@ -22,15 +24,7 @@ Show the current blog application and explain what we'll be building
 
 > Browser can navigate through the app, click on links, type into inputs, take screenshots and even monitor network traffic.
 
-<!-- @include: docs/presenter-docs/Features/Browser/Browser.md | after: ## Setup, collapsible: true, label: Browser Details -->
-
-### 2.5. [Slash Commands](https://cursor.com/docs/agent/chat/commands)
-
-> Custom commands allow you to create reusable workflows that can be triggered with a simple `/` prefix in the chat input box.
->
-> These commands help standardize processes across your team and make common tasks more efficient.
-
-Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo all changes and restore the workspace to a clean state.
+<!-- @include: docs/presenter-docs/Features/Browser/Browser.md | after: ## Demo, collapsible: true, label: Browser Details -->
 
 ---
 
@@ -40,7 +34,7 @@ Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to undo al
 >
 > Agent researches your codebase, asks clarifying questions, and generates a reviewable plan you can edit before building.
 
-Enable Plan Mode in the agent settings
+**Click the Implement Bookmarks Feature deep link:**
 
 - [Implement Bookmarks Feature](cursor://anysphere.cursor-deeplink/prompt?text=Product%20wants%20us%20to%20add%20a%20bookmarks%20feature%20so%20users%20can%20save%20posts%20for%20later.%20Review%20the%20requirements%20in%20%40BOOKMARKS_PRD%20and%20create%20an%20implementation%20plan.)
 
@@ -54,7 +48,7 @@ Enable Plan Mode in the agent settings
 >
 > Parallel agents run in their own worktree, allowing them to make edits, or build and test code without interfering with each other.
 
-<!-- @include: docs/presenter-docs/Features/Worktrees/Worktrees.md | after: ## Parallel Agents, lines: 1-42, collapsible: true, label: Parallel Agents Details -->
+<!-- @include: docs/presenter-docs/Features/Worktrees/Worktrees.md | after: ## Parallel Agents, lines: 1-80, collapsible: true, label: Parallel Agents Details -->
 
 ### 4.5. Reset
 Use custom slash command [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) to clean workspace
@@ -78,6 +72,10 @@ Click "Review Changes" at top right, then `/commit`
 
 - [Screenshots and PR](cursor://anysphere.cursor-deeplink/prompt?text=Take%20screenshots%20of%20light%20and%20dark%20mode%20using%20browser%20automation%2C%20commit%20them%2C%20and%20create%20a%20PR%20with%20the%20screenshots%20displaying%20inline.%20Follow%20%40SCREENSHOT_WORKFLOW%20and%20use%20%40Browser.%20Follow%20guidelines%20in%20%2Fcreate-pr)
 
+**Final PR on GitHub with light and dark mode screenshots inline:**
+
+![GitHub PR with screenshots](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/28b0afae-c8e2-4491-a536-ba05b814b108/ascreenshot.jpeg)
+
 ---
 
 ## Supplementary
@@ -92,15 +90,20 @@ Click "Review Changes" at top right, then `/commit`
 
 > Run a prompt across multiple models, then Cursor judges and picks the best solution.
 
-Select Worktree mode, choose 3-4 models, then:
+**Step 1: Select Worktree mode and choose 3-4 models**
+
+**Step 2: Run the prompt**
 
 - [Add Back to Home Link](cursor://anysphere.cursor-deeplink/prompt?text=Add%20a%20%22Back%20to%20Home%22%20link%20at%20the%20top%20of%20each%20blog%20post%20page.)
 
-### [Bugbot](https://cursor.com/docs/bugbot#bugbot)
+**Step 3: Judge picks the best solution**
 
-> Bugbot reviews pull requests and identifies bugs, security issues, and code quality problems.
+**Compare model results and judge selects the best implementation:**
 
-<!-- @include: docs/presenter-docs/Features/Bugbot/Bugbot.md | after: ## Demo, collapsible: true, label: Bugbot Details -->
+![Judge comparing and selecting best model result](../../../best-of-n-model-comparison.jpg)
 
 ### Voice Mode
-Use voice to iterate quickly
+
+> Use voice to iterate quickly. Turn speech into prompts instantly and watch your ideas come to life.
+
+<!-- @include: docs/presenter-docs/Features/Agent/Voice-Mode/Voice-Mode.md | after: ## Demo, collapsible: true, label: Voice Mode Details -->

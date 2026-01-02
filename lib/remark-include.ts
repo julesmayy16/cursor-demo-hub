@@ -23,6 +23,12 @@ interface IncludeOptions {
    * Defaults to false
    */
   collapsible?: boolean;
+  /**
+   * Whether to strip images from the content.
+   * Useful for text-only views of documentation.
+   * Defaults to false
+   */
+  stripImages?: boolean;
 }
 
 interface ProcessResult {
@@ -53,6 +59,7 @@ export function processIncludes(
     stripFirstHeading = true,
     maxDepth = 5,
     collapsible = false,
+    stripImages = false,
   } = options;
 
   const includedFiles: string[] = [];
@@ -68,7 +75,7 @@ export function processIncludes(
   const includePattern =
     /<!--\s*@include:\s*([^\s|>]+)(?:\s*\|\s*([^>]+?))?\s*-->/g;
 
-  const processed = content.replace(includePattern, (match, filePath: string, optionsStr?: string) => {
+  let processed = content.replace(includePattern, (match, filePath: string, optionsStr?: string) => {
     // Parse inline options
     const inlineOptions: Record<string, string | boolean> = {};
     if (optionsStr) {
@@ -151,7 +158,33 @@ ${nested.content.trim()}
     return `<!-- 📎 included: ${filePath} -->\n${nested.content.trim()}\n<!-- /included: ${filePath} -->`;
   });
 
+  // Strip images if enabled - removes ![alt](url) and ![alt][ref] syntax
+  if (stripImages) {
+    processed = stripMarkdownImages(processed);
+  }
+
   return { content: processed, includedFiles };
+}
+
+/**
+ * Strip markdown images from content
+ * Handles: ![alt](url), ![alt](url "title"), ![alt][ref], ![][ref]
+ * Also removes reference definitions: [ref]: url
+ */
+function stripMarkdownImages(content: string): string {
+  // Remove inline images: ![alt](url) or ![alt](url "title")
+  let result = content.replace(/!\[([^\]]*)\]\([^)]+\)/g, "");
+  
+  // Remove reference-style images: ![alt][ref] or ![][ref]
+  result = result.replace(/!\[([^\]]*)\]\[[^\]]*\]/g, "");
+  
+  // Remove image reference definitions: [ref]: url
+  result = result.replace(/^\[[^\]]+\]:\s+\S+.*$/gm, "");
+  
+  // Clean up multiple consecutive blank lines left behind
+  result = result.replace(/\n{3,}/g, "\n\n");
+  
+  return result;
 }
 
 /**

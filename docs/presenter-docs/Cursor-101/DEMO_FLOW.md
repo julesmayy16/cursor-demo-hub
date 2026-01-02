@@ -4,12 +4,7 @@ An introductory walkthrough of Cursor's core features for new users.
 
 ---
 
-## Prerequisites
-
-Before starting the demo:
-
-1. **Start the server:** Run [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) to launch the development server and open the blog app in the browser
-2. **Reset workspace:** Use [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) between sections to ensure a clean state for deterministic results
+<!-- @include: docs/presenter-docs/Common/Prerequisites.md | after: # Prerequisites -->
 
 ---
 
@@ -29,7 +24,7 @@ Before starting the demo:
 
 **Docs:** [Tab Overview](https://docs.cursor.com/tab/overview) | [Inline Edit](https://docs.cursor.com/en/inline-edit/overview)
 
-<!-- @include: docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md | after: ## How Tab Works, collapsible: true, label: Tab + Inline Edit Details -->
+<!-- @include: docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md | after: ## Tab Autocomplete, collapsible: true, label: Tab + Inline Edit Details -->
 
 ---
 
@@ -64,7 +59,5 @@ Before starting the demo:
 
 After completing Cursor 101, explore:
 
-- **[Cursor 2.0 Demo](../Cursor-2.0/)** – Advanced features like Browser, Worktrees, Bugbot
-- **[Plan Mode](../Features/Agent/Plan-Mode/Plan-Mode.md)** – Detailed implementation planning
-- **[Debug Mode](../Features/Agent/Debug-Mode/Debug-Mode.md)** – Hypothesis-driven debugging
-- **[Browser](../Features/Browser/Browser.md)** – Built-in browser testing
+- **[Cursor 201](../Cursor-201/DEMO_FLOW)** – Rules, Plan Mode, Debug Mode
+- **[Cursor 2.0 Demo](../Cursor-2.0/DEMO_FLOW)** – Browser, Worktrees, Bugbot

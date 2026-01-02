@@ -57,9 +57,14 @@ export function getDocsTree(dir: string = docsDirectory, basePath: string[] = []
   const items = fs.readdirSync(dir);
   const entries: DocEntry[] = [];
 
+  // Directories to hide from navigation (used for includes only)
+  const hiddenDirs = ["Common"];
+
   for (const item of items) {
     // Skip hidden files and non-md files (except directories)
     if (item.startsWith(".")) {continue;}
+    // Skip directories that are for includes only
+    if (hiddenDirs.includes(item)) {continue;}
     
     const fullPath = path.join(dir, item);
     const stat = fs.statSync(fullPath);
@@ -119,10 +124,22 @@ export function getAllDocSlugs(): string[][] {
   return slugs;
 }
 
+interface GetDocDataOptions {
+  /**
+   * Strip images from the rendered content.
+   * Useful for text-only views (e.g., ?text=true query param)
+   */
+  stripImages?: boolean;
+}
+
 /**
  * Get doc content by slug
  */
-export async function getDocData(slug: string[]): Promise<DocData | null> {
+export async function getDocData(
+  slug: string[],
+  options: GetDocDataOptions = {}
+): Promise<DocData | null> {
+  const { stripImages = false } = options;
   const filePath = `${path.join(docsDirectory, ...slug)}.md`;
 
   if (!fs.existsSync(filePath)) {
@@ -136,6 +153,7 @@ export async function getDocData(slug: string[]): Promise<DocData | null> {
   const { content } = processIncludes(rawContent, {
     baseDir: process.cwd(),
     stripFirstHeading: true,
+    stripImages,
   });
 
   const processedContent = await remark()

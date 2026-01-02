@@ -22,6 +22,36 @@ function DocLink({
   const isOpen = openFolders.has(slugKey);
 
   if (entry.isDirectory && entry.children) {
+    // Filter out READMEs inside folders - they clutter the nav
+    const visibleChildren = entry.children.filter((child) => {
+      const name = child.slug[child.slug.length - 1]?.toLowerCase();
+      return name !== "readme";
+    });
+
+    // If directory has only 1 visible child (or 0 with just a README), show it directly
+    if (visibleChildren.length <= 1) {
+      // Use the first visible child, or fall back to README if no visible children
+      const child = visibleChildren[0] || entry.children.find((c) => 
+        c.slug[c.slug.length - 1]?.toLowerCase() === "readme"
+      );
+      if (child) {
+        const childPath = `/presenter-docs/${child.slug.join("/")}`;
+        const childHref = openParam ? `${childPath}?open=${openParam}` : childPath;
+        
+        return (
+          <div className="flex items-center gap-2 py-2">
+            <span className="w-4 h-4 flex items-center justify-center text-dev-text">•</span>
+            <Link
+              href={childHref}
+              className="text-dev-text font-semibold hover:text-dev-accent hover:underline"
+            >
+              {entry.title}
+            </Link>
+          </div>
+        );
+      }
+    }
+
     return (
       <div>
         <button
@@ -41,12 +71,12 @@ function DocLink({
           </svg>
           {entry.title}
           <span className="text-dev-secondary text-sm font-normal">
-            ({entry.children.length})
+            ({visibleChildren.length})
           </span>
         </button>
         {isOpen && (
           <div className="ml-5 border-l-2 border-dev-secondary pl-4">
-            {entry.children.map((child) => (
+            {visibleChildren.map((child) => (
               <DocLink
                 key={child.slug.join("/")}
                 entry={child}

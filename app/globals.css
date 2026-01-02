@@ -55,6 +55,11 @@
     @apply mb-2;
   }
   
+  .prose li > a {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  
   .prose blockquote {
     @apply border-l-4 border-dev-accent pl-4 italic text-dev-secondary rounded-r-lg my-4;
     border-left-color: color-mix(in srgb, var(--color-dev-accent) 60%, transparent);
@@ -134,6 +139,6 @@
   }
 
   .prose details > *:not(summary) {
-    @apply pl-0;
+    @apply ml-6;
   }
 }

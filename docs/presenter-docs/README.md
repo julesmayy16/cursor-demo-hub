@@ -17,11 +17,11 @@ Welcome to the **Cursor Demo Repository**—a standardized, scalable resource fo
 
 ```bash
 git clone https://github.com/fieldsphere/cursor-demos.git
-cd TAM-Cursor-Demos
+cd cursor-demos
 cursor .
 ```
 
-**Option 2:** [Clone from Cursor](cursor://anysphere.cursor-deeplink/prompt?text=Clone%20the%20repository%20https%3A%2F%2Fgithub.com%2Fanysphere%2FTAM-Cursor-Demos.git)
+**Option 2:** [Clone from Cursor](cursor://anysphere.cursor-deeplink/prompt?text=Clone%20the%20repository%20https%3A%2F%2Fgithub.com%2Ffieldsphere%2Fcursor-demos.git)
 
 <details>
 <summary>Screenshots for cloning from Cursor</summary>
@@ -57,7 +57,7 @@ Once the repository is open in Cursor:
 <details open>
 <summary>Where to Start</summary>
 
-The best way to learn these demos is to **run through them yourself using the screenshot versions**. Each demo guide has a `.screenshots.md` version with step-by-step visuals—follow along and practice before presenting live.
+The best way to learn these demos is to **run through them yourself using the screenshot versions**. Each demo guide has a `.md` version with step-by-step visuals—follow along and practice before presenting live.
 
 | Demo | Description |
 |------|-------------|
@@ -197,7 +197,7 @@ The goal is that even with limited knowledge of Cursor's inner workings, you can
 <details>
 <summary>Tips for a Great Demo</summary>
 
-1. **Practice with screenshots first** – Run through the `.screenshots.md` guides to learn the flow
+1. **Practice with screenshots first** – Run through the `.md` guides to learn the flow
 2. **Run [/start-demo](cursor://anysphere.cursor-deeplink/prompt?text=%2Fstart-demo) at the beginning** – Creates a clean, traceable branch
 3. **Run [/reset](cursor://anysphere.cursor-deeplink/prompt?text=%2Freset) between sections** – Ensures each feature demo starts fresh
 4. **Use deep links** – Click, don't type, for consistent prompts
