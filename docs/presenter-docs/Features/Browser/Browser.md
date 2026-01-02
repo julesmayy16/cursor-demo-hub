@@ -50,11 +50,19 @@ Open the Design Sidebar to modify styles visually:
 
 ![Element selected with Design Sidebar](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/d9b5d351-037a-4392-8f4b-17c989b7f777/ascreenshot_23f8abfd34b34c3faccf9cd089ae17af_text_export.jpeg)
 
-**Use the Layout controls to adjust alignment, dimensions, and spacing:**
+**Use the Layout controls to adjust alignment, dimensions, and spacing - here we'll right align the text:**
 
 ![Design Sidebar Layout controls](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/bb5af8f3-5664-413e-a0d6-27626ad56d5c/ascreenshot_604517d0359f43edb6c1b0cece23e39d_text_export.jpeg)
 
-**Click the Color tab to change colors:**
+**Click Apply to save changes to code:**
+
+![Apply button with edits pending](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/cd07effa-c4a8-4e79-a94a-036ae3c13a39/ascreenshot_a484e5cd634d4b9baddfc0b1d9e37759_text_export.jpeg)
+
+**View right alignment of the text:**
+
+![Right alignment of text](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/07cad5e2-e350-49e1-8cf4-b589e1f1999b/ascreenshot_3e1d296c5db345eb9c6a23bfd22830fa_text_export.jpeg)
+
+**Now let's change the color of the text - click the Color palette:**
 
 ![Click Color tab](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8a5e81e0-d4ef-47a6-ad40-bb08a1e4eb17/ascreenshot_4a0bbd0866b143efab8e0ce7e43089e3_text_export.jpeg)
 
@@ -66,25 +74,17 @@ Open the Design Sidebar to modify styles visually:
 
 ![Choose color value](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/0a04f657-d4cb-4c9d-9bfb-e3adb6ad90d7/ascreenshot_ace45cc3629c409db914db1aaaf6a64c_text_export.jpeg)
 
-**Preview the color change:**
+**Apply the color change:**
 
 ![Preview color change](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/bb62c975-bac1-4a13-8927-6440c93ec4e9/ascreenshot_07ac138f7a724eb7944921fbb932652e_text_export.jpeg)
 
-**Confirm the color selection:**
+**View the color change:**
 
 ![Confirm color selection](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/a2709bc7-854c-40b2-a8ec-e2aae38e9a62/ascreenshot_1e90605441ec4939a62188555a4e7f1b_text_export.jpeg)
 
 **Reset to undo the color changes:**
 
 ![Reset color changes](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/f4768cdf-c045-41df-8ef7-73b782400d7b/ascreenshot_f7c610a899824ecdb648e39e420ac302_text_export.jpeg)
-
-**Click Apply to save changes to code:**
-
-![Apply button with edits pending](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/cd07effa-c4a8-4e79-a94a-036ae3c13a39/ascreenshot_a484e5cd634d4b9baddfc0b1d9e37759_text_export.jpeg)
-
-**Right alignment of the text:**
-
-![Right alignment of text](https://colony-recorder.s3.amazonaws.com/files/2025-12-30/07cad5e2-e350-49e1-8cf4-b589e1f1999b/ascreenshot_3e1d296c5db345eb9c6a23bfd22830fa_text_export.jpeg)
 
 ---
 
