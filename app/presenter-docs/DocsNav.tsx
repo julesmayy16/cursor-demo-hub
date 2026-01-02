@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { DocEntry } from "@/lib/presenter-docs";
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { useCallback, useMemo } from "react";
+import { useUrlSetState } from "./useUrlSetState";
 
 function DocLink({
   entry,
@@ -120,37 +119,9 @@ function DocLink({
 }
 
 export function DocsNav({ entries }: { entries: DocEntry[] }) {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
-
-  // Parse open folders from URL param
-  const openParam = searchParams.get("open") || "";
-  const openFolders = useMemo(
-    () => new Set(openParam ? openParam.split(",") : []),
-    [openParam]
-  );
-
-  const toggleFolder = useCallback(
-    (slug: string) => {
-      const newOpen = new Set(openFolders);
-      if (newOpen.has(slug)) {
-        newOpen.delete(slug);
-      } else {
-        newOpen.add(slug);
-      }
-
-      const params = new URLSearchParams(searchParams.toString());
-      if (newOpen.size > 0) {
-        params.set("open", Array.from(newOpen).join(","));
-      } else {
-        params.delete("open");
-      }
-
-      router.replace(`${pathname}?${params.toString()}`, { scroll: false });
-    },
-    [openFolders, searchParams, router, pathname]
-  );
+  const { values: openFolders, paramValue: openParam, toggle: toggleFolder } = useUrlSetState({
+    paramKey: "open",
+  });
 
   return (
     <div className="space-y-1">

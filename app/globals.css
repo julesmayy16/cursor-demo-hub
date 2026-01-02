@@ -130,12 +130,22 @@
   }
 
   .prose details summary::before {
-    content: "▶ ";
-    @apply text-lg mr-2 inline-block transition-transform duration-200;
+    content: "▶";
+    @apply text-lg mr-2 inline-block;
+    transition: transform 0.2s ease;
   }
 
-  .prose details[open] summary::before {
-    content: "▼ ";
+  .prose details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  /* Nested details get smaller styling */
+  .prose details details {
+    @apply my-4;
+  }
+
+  .prose details details summary {
+    @apply text-xl lg:text-2xl mt-4;
   }
 
   .prose details > *:not(summary) {

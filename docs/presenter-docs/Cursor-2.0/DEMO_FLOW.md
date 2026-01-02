@@ -100,7 +100,13 @@ Click "Review Changes" at top right, then `/commit`
 
 **Compare model results and judge selects the best implementation:**
 
-![Judge comparing and selecting best model result](../../../best-of-n-model-comparison.jpg)
+![Judge comparing and selecting best model result](/image-backups/Cursor-2.0/best-of-n-model-comparison.jpg)
+
+### [Bugbot](https://cursor.com/docs/bugbot#bugbot)
+
+> Bugbot reviews pull requests and identifies bugs, security issues, and code quality problems.
+
+<!-- @include: docs/presenter-docs/Features/Bugbot/Bugbot.md | after: ## Demo, collapsible: true, label: Bugbot Details -->
 
 ### Voice Mode
 

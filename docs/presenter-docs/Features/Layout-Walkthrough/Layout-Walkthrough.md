@@ -8,10 +8,10 @@
 
 Cursor extends VS Code with AI-powered panels and features. The main areas include:
 
-- **File Explorer** (left sidebar) - Navigate your project files
+- **Agent Panel** (left sidebar) - AI chat and agent interactions
 - **Editor** (center) - View and edit code
 - **Terminal** (bottom panel) - Run commands
-- **Agent Panel** (right sidebar) - AI chat and agent interactions
+- **File Explorer** (right sidebar) - Navigate your project files
 
 ## Demo
 

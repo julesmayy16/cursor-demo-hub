@@ -58,7 +58,7 @@ export function getDocsTree(dir: string = docsDirectory, basePath: string[] = []
   const entries: DocEntry[] = [];
 
   // Directories to hide from navigation (used for includes only)
-  const hiddenDirs = ["Common"];
+  const hiddenDirs = ["Common", "_sections"];
 
   for (const item of items) {
     // Skip hidden files and non-md files (except directories)

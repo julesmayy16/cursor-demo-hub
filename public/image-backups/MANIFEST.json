@@ -1,0 +1,1487 @@
+[
+  {
+    "filename": "Cursor-2.0/start-demo-command-ea20922f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/ea20922f-a6c4-46ba-858e-99853af00c4f/ascreenshot_773ad3dcdc3a4fe282d48cec640e128b_text_export.jpeg",
+    "altText": "Start demo command",
+    "sourceFiles": [
+      "docs/presenter-docs/Cursor-2.0/DEMO_FLOW.md",
+      "docs/presenter-docs/Cursor-2.0/DEMO_FLOW.screenshots.md"
+    ],
+    "folder": "Cursor-2.0"
+  },
+  {
+    "filename": "Cursor-2.0/github-pr-with-screenshots-28b0afae.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/28b0afae-c8e2-4491-a536-ba05b814b108/ascreenshot.jpeg",
+    "altText": "GitHub PR with screenshots",
+    "sourceFiles": [
+      "docs/presenter-docs/Cursor-2.0/DEMO_FLOW.md",
+      "docs/presenter-docs/Cursor-2.0/DEMO_FLOW.screenshots.md"
+    ],
+    "folder": "Cursor-2.0"
+  },
+  {
+    "filename": "Agent/Agent-Chat/add-context-button-4a72196f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/4a72196f-3a51-4643-9680-4b184b74850d/ascreenshot_2efecad5ca954d529b508f6674085525_text_export.jpeg",
+    "altText": "Add Context button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Adding-Context.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/context-options-3318391f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/3318391f-67d4-4eaf-9e1f-184dc30a32d3/ascreenshot_d1fd1056e182499bab344956cbead8dc_text_export.jpeg",
+    "altText": "Context options",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Adding-Context.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/context-types-expanded-e346e9f7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/e346e9f7-5a4b-4b48-b333-eac11960993a/ascreenshot_b7deefa673cb4831a1eb898512a4185b_text_export.jpeg",
+    "altText": "Context types expanded",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Adding-Context.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-mode-selector-add45b19.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/add45b19-efa5-401f-9b3e-6568c88002cc/ascreenshot_7f3bc9ab4f9f4909827f54a755ba02a5_text_export.jpeg",
+    "altText": "Agent mode selector",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Agent-Modes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/mode-options-24d857cc.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/24d857cc-a885-40bf-ba6b-2d8793af7c4b/ascreenshot_56883a28a241433180502a3952fb7b3a_text_export.jpeg",
+    "altText": "Mode options",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Agent-Modes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/click-create-chat-69e2471c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/69e2471c-02a6-4855-ae3e-f4a7b000f1fa/ascreenshot_36c02845565f45a08895b576356cc3c7_text_export.jpeg",
+    "altText": "Click Create Chat",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/click-the-mode-dropdown-08d14b33.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/08d14b33-ab1b-4016-a1b0-ce19bf1b374c/ascreenshot_f9b5ae3a3ad84184811ffd48b36e5bb1_text_export.jpeg",
+    "altText": "Click the mode dropdown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/select-ask-mode-d2c4a709.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/d2c4a709-3fce-47d7-bf2f-aab9e7b3d82b/ascreenshot_ce32762ccb3041cf815d383c2c739647_text_export.jpeg",
+    "altText": "Select Ask mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-exploring-codebase-abf4dcfa.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/abf4dcfa-2aa2-41f0-b0c2-b46f884413ae/ascreenshot_a41c585ec15c4e04a94a6885da6e6740_text_export.jpeg",
+    "altText": "Agent exploring codebase",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-reasoning-through-files-0b99561b.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/0b99561b-afbf-4b43-a782-da5255de847a/user_cropped_screenshot_f479c20f66784b0e9b0317726131e871_text_export.jpeg",
+    "altText": "Agent reasoning through files",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/codebase-overview-results-6eba9bee.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6eba9bee-8a61-4c6e-81c0-18ae4538bb94/user_cropped_screenshot_eec42bce17ee410fa6b77f07437bcc63_text_export.jpeg",
+    "altText": "Codebase overview results",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Ask-Mode-Demo.md",
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/chat-history-button-9fa45cd2.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/9fa45cd2-0418-4ede-87af-00d4bfb23737/ascreenshot_4df3322b96a645f887af3af88177c98d_text_export.jpeg",
+    "altText": "Chat history button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Chat-History.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/chat-history-list-6eb2b02f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6eb2b02f-c742-4da5-9d92-45f1acafb559/ascreenshot_9ad22f2ff06b4e019c11f20066f73c6d_text_export.jpeg",
+    "altText": "Chat history list",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Chat-History.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/context-window-indicator-45163e8f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/45163e8f-520f-4c3b-9aab-4718fb1c421b/ascreenshot_05d0a5248eed4ecaa2704da84a1b3861_text_export.jpeg",
+    "altText": "Context window indicator",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Context-Window.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/new-agent-button-a75bb952.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/a75bb952-ba21-41d0-b802-3b82a31cd4ee/ascreenshot_ba3d9f1fc8964fad943056efc7434309_text_export.jpeg",
+    "altText": "New agent button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Context-Window.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/click-implement-dark-mode-7997f380.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/7997f380-b64a-4914-8544-6745df34631f/ascreenshot_b14b1ebbc3af482ea91d90f757ef3979_text_export.jpeg",
+    "altText": "Click Implement Dark Mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/create-chat-dialog-b43e8d68.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/b43e8d68-7afa-4fbc-8d43-14e483e0dc45/ascreenshot_cbdca248fee040099d983a60ca1d507a_text_export.jpeg",
+    "altText": "Create Chat dialog",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/model-dropdown-e74195e7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/e74195e7-ff1e-41b3-ad34-48a8b4f10b0a/ascreenshot_3986a89130fd4b648bc97ecd13dae879_text_export.jpeg",
+    "altText": "Model dropdown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/select-composer-1-273d22ff.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/273d22ff-ad48-4207-b842-6c39038a6cf0/ascreenshot_739b8c3a3308474090b9222b52b21fae_text_export.jpeg",
+    "altText": "Select composer-1",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-working-6999f238.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6999f238-0115-4395-8f5c-c90699ad96bc/ascreenshot_bd6d07fdca3a421b8fc201117f098d40_text_export.jpeg",
+    "altText": "Agent working",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/click-review-52e4014d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/52e4014d-39ae-4366-80af-03e34f025b2e/ascreenshot_57effbc16bd544228b648a8f9805e3db_text_export.jpeg",
+    "altText": "Click Review",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/review-scope-ce091767.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ce091767-ab13-4eb3-b614-42117722373b/ascreenshot_2be9d139bb6a4bf1b06f1f857922ce74_text_export.jpeg",
+    "altText": "Review scope",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Demo-Dark-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/local-mode-06af6fea.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/06af6fea-5eb1-48e6-9389-954880cf14fb/ascreenshot_35a259941d424639bc1f9cb56f04050c_text_export.jpeg",
+    "altText": "Local mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Execution-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/cloud-mode-39a7a562.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/39a7a562-783f-47e8-900a-03d75256a534/ascreenshot_ab9096f4aab9456b9837f02ff17687e0_text_export.jpeg",
+    "altText": "Cloud mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Execution-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/worktree-mode-28f433df.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/28f433df-7fd8-4269-9659-74b5516afe49/ascreenshot_28dadbe1e9844a5db280ad8d0bee9835_text_export.jpeg",
+    "altText": "Worktree mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Execution-Mode.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/runtime-error-in-browser-ca9a0d44.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ca9a0d44-6b1f-4abc-a9fe-dcc99695c841/ascreenshot_f40e1bedc9a144d6b5e2c4b625cde655_text_export.jpeg",
+    "altText": "Runtime error in browser",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/open-terminal-panel-e258b03f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/e258b03f-7709-4fe4-af59-00bfe08bdc9d/ascreenshot_2c3f1e2ea0fa451eb531d3fce266a558_text_export.jpeg",
+    "altText": "Open terminal panel",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/select-terminal-6290c97c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6290c97c-9468-43c4-bcb1-88585427587f/ascreenshot_2f359fc3c0d1431897aaa3e636f88f85_text_export.jpeg",
+    "altText": "Select terminal",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/select-error-text-72da8eb3.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/72da8eb3-ff19-431a-83de-51a05b19282e/ascreenshot_d11e8c63b5134b95adc98bfcfcd235e7_text_export.jpeg",
+    "altText": "Select error text",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/error-in-chat-context-0547a575.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/0547a575-9759-4472-a058-ee4a049a1379/ascreenshot_23f593b414c64e7cab596f12fb69c08f_text_export.jpeg",
+    "altText": "Error in chat context",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/file-location-shown-995cc90a.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/995cc90a-8967-4e3d-8644-a3dfccedd6e1/ascreenshot_697fa104c9de4900b26e7d1c7e19f48d_text_export.jpeg",
+    "altText": "File location shown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/submit-fix-request-b4235ec0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/b4235ec0-5c4e-4d46-b536-0ad7bab78dcc/ascreenshot_0052089e24ff4cc4986cad50dfac470c_text_export.jpeg",
+    "altText": "Submit fix request",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Fixing-Bugs-Terminal.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/git-diff-context-9d577950.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/9d577950-142b-42a9-9e7e-d6183f8f7a07/ascreenshot_c9ddd696b4f04594b201c34854759d44_text_export.jpeg",
+    "altText": "Git diff context",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Git-Diff-Context.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/changes-explained-b982a96a.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/b982a96a-1fb2-455d-a4e8-fc7d44d100b6/ascreenshot_6233e904aa604d668d076d274207808d_text_export.jpeg",
+    "altText": "Changes explained",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Git-Diff-Context.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/image-upload-button-973d29a3.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/973d29a3-c1c2-4a73-b994-f9001fe234bd/ascreenshot_f333544998ca4382845b91842a7363aa_text_export.jpeg",
+    "altText": "Image upload button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Image-Upload.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/image-in-chat-be6d42f0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/be6d42f0-5ed2-4e36-8f40-0cf25fd7f64d/ascreenshot_11b8cb27c4934c7d93b4aabc9ea12cad_text_export.jpeg",
+    "altText": "Image in chat",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Image-Upload.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/file-reference-in-prompt-5238c67e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/5238c67e-094b-4967-8735-b310e9649e58/ascreenshot_978e47c4b6d04fa2bae7dc037d2d5b19_text_export.jpeg",
+    "altText": "File reference in prompt",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Making-Code-Changes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-finds-component-345c6473.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/345c6473-e31f-473f-ac5b-a971d64112b8/ascreenshot_75a8961f8ace4147980a6fb4644aea2f_text_export.jpeg",
+    "altText": "Agent finds component",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Making-Code-Changes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/review-changes-button-ccf2ced0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ccf2ced0-63da-48b8-b826-26b3023ee30f/ascreenshot_135dfd31a6ca4536baaa3d6dc37548d6_text_export.jpeg",
+    "altText": "Review changes button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Making-Code-Changes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/diff-view-428647b4.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/428647b4-0587-415b-a6f1-656a5dbb7fee/ascreenshot_5b4305b5f46549aca6f0272a2c5071f9_text_export.jpeg",
+    "altText": "Diff view",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Making-Code-Changes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/undo-changes-ff1e8f4e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ff1e8f4e-251c-4af1-907f-49813c556212/ascreenshot_248d76266b5e4ee480bd26a6ce4c6223_text_export.jpeg",
+    "altText": "Undo changes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Making-Code-Changes.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/model-selector-6d9492d4.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6d9492d4-1121-4326-9e1f-eb9c3a0e4767/ascreenshot_4a42b42d960e4ee2bfbe04b1448b1b77_text_export.jpeg",
+    "altText": "Model selector",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/model-options-with-descriptions-89c572df.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/89c572df-f8be-484a-a05c-6c722a9c0539/ascreenshot_d3bcce33e0d54c3cabb7268919fad54d_text_export.jpeg",
+    "altText": "Model options with descriptions",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/model-categories-3da6ac1a.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/3da6ac1a-f444-4b03-9e94-0b95f12c9ab7/ascreenshot_eee78fef1c3344a0bdf230df0b36cdc5_text_export.jpeg",
+    "altText": "Model categories",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/cursor-menu-7b291b90.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/7b291b90-32be-4bd6-8618-a0f5a9affcb8/ascreenshot_cb1a5f2a68494d81b7277e098814dde8_text_export.jpeg",
+    "altText": "Cursor menu",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/cursor-settings-option-9fc7edd9.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/9fc7edd9-d4b6-4e87-be84-fa0c06dfceb1/ascreenshot_34d9bf59b9d04dd784eaf08ad0ff2015_text_export.jpeg",
+    "altText": "Cursor Settings option",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/models-section-80c8b2a3.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/80c8b2a3-f69e-4ad4-8a13-292cd2715a01/ascreenshot_d64d1b6eb0a14506a3946b92b68dca16_text_export.jpeg",
+    "altText": "Models section",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/view-all-models-button-d7a25fd5.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/d7a25fd5-0ed0-4e36-817a-2ddc2aa0aff8/ascreenshot_77fc6dc3e4db465a886736a5edb053c0_text_export.jpeg",
+    "altText": "View All Models button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/model-list-with-toggles-0d849348.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/0d849348-fdca-4e56-bd33-48c10ea6a23a/ascreenshot_d5aed38462d34f5a80062a9373f9a2cb_text_export.jpeg",
+    "altText": "Model list with toggles",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Model-Selection.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/terminal-permission-request-13fdcc39.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/13fdcc39-a3b8-488d-885f-2985fed3258d/ascreenshot_12c4608a968f4599966264b31d6fe208_text_export.jpeg",
+    "altText": "Terminal permission request",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/terminal-options-ask-sandbox-run-everything-0c9f3f5c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/0c9f3f5c-dd57-43dd-95e9-4e67fba3954a/ascreenshot_f19cefe3fb1c44ec97ee1dc21856b2a1_text_export.jpeg",
+    "altText": "Terminal options - Ask, Sandbox, Run Everything",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/cursor-settings-menu-9a95eaca.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/9a95eaca-1cf9-4b41-b01d-977506c4df40/ascreenshot_6e963106273142eeacd809e378260338_text_export.jpeg",
+    "altText": "Cursor Settings menu",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/agent-settings-5b4eb62d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/5b4eb62d-c16b-4ef6-99fb-b04e829b31f1/ascreenshot_6496d08355d94ca88afafc86af48ed24_text_export.jpeg",
+    "altText": "Agent settings",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/terminal-permission-settings-dbeaf96f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/dbeaf96f-350a-44df-ae3b-52ca276e610f/ascreenshot_bc2f1f92e0854736985972f6b92eceec_text_export.jpeg",
+    "altText": "Terminal permission settings",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/app-running-in-browser-05c83c5e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/05c83c5e-c1a0-4713-a9c5-ccdb11343cc3/ascreenshot_cf3e83aae81444d9a0f760427e61ad19_text_export.jpeg",
+    "altText": "App running in browser",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Starting-Server.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/search-docs-26fd89d8.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/26fd89d8-6114-4be0-bbe0-751af63d8cb3/ascreenshot_5cdb76a9e4264a72b436f840b488b1cb_text_export.jpeg",
+    "altText": "Search docs",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/select-zod-docs-7e292d12.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/7e292d12-1e4c-4f41-b7ee-85ae1cb96a15/ascreenshot_8ce804d338334971865d3c8c87c04021_text_export.jpeg",
+    "altText": "Select Zod docs",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/add-new-doc-option-8bc4a64e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/8bc4a64e-0f34-4a40-914b-455ab7387e81/ascreenshot_ffd8ba97f58140098b9ae7216226d158_text_export.jpeg",
+    "altText": "Add new doc option",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/paste-doc-url-d04e2734.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/d04e2734-301c-4f51-a8ae-43e0acb11447/ascreenshot_016377d8c04a4658bcebe6fb3645fddc_text_export.jpeg",
+    "altText": "Paste doc URL",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/url-ready-806f1075.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/806f1075-2bcc-4a82-9fb0-3d2afa1fdaa3/ascreenshot_5c368afe404d4ebf89fef51e06716014_text_export.jpeg",
+    "altText": "URL ready",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/indexing-docs-a9a104ae.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/a9a104ae-335e-496f-9968-2fef13453964/ascreenshot_809042fce6be440cba1099db2b08f169_text_export.jpeg",
+    "altText": "Indexing docs",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/docs-indexed-6ba9464b.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6ba9464b-b265-4d94-a9b9-712d88524a61/ascreenshot_88fcd841431942a88c06226f2257fc5a_text_export.jpeg",
+    "altText": "Docs indexed",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Using-Documentation.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/voice-input-button-8042a8db.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/8042a8db-a533-4f17-940f-aeb911090485/ascreenshot_3e9e18fa2e864fed8999ec5d574998af_text_export.jpeg",
+    "altText": "Voice input button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Voice-Input.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Agent-Chat/voice-recording-active-26a55931.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/26a55931-a92b-44cc-ab12-fb56147a8e0c/ascreenshot_da89b13272b2487f876a44c048dded9e_text_export.jpeg",
+    "altText": "Voice recording active",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Agent-Chat/_sections/Voice-Input.md"
+    ],
+    "folder": "Agent/Agent-Chat"
+  },
+  {
+    "filename": "Agent/Ask-Mode/click-the-deep-link-to-open-the-prompt-12186cfb.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/12186cfb-991a-420c-ba73-1cf1dfc0ed41/ascreenshot_38f8b50ce0ba452fa34414eb402b0130_text_export.jpeg",
+    "altText": "Click the deep link to open the prompt",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Ask-Mode/Ask-Mode.md"
+    ],
+    "folder": "Agent/Ask-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/click-agent-dropdown-df96f0e0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/df96f0e0-2eef-408c-b6b5-dfde243bbd40/ascreenshot_a2224b27a2ab4e3abdccaa6d01d2db97_text_export.jpeg",
+    "altText": "Click Agent dropdown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/enable-plan-mode-ea41b2f7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/ea41b2f7-8996-4ef8-a3de-e9711695552d/ascreenshot_822f72ddb10442b096f67b16229b24e1_text_export.jpeg",
+    "altText": "Enable Plan Mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/model-selected-7ea81294.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/7ea81294-788e-42d2-a8f7-7c94d1489cf3/ascreenshot_3c09889cd2d543019e0872992e756e76_text_export.jpeg",
+    "altText": "Model selected",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/plan-generated-with-todos-a22da852.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/a22da852-5766-4a3a-a7ad-4269ba1c34e6/ascreenshot_b74a6529b3f445369fe8ce251a2e9315_text_export.jpeg",
+    "altText": "Plan generated with todos",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/click-build-button-6c02f2a5.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/6c02f2a5-d42a-4cc2-8435-ea826e94a566/ascreenshot_1b41d1a2b2bd4456ad3947617be66b69_text_export.jpeg",
+    "altText": "Click Build button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Agent/Plan-Mode/build-executing-d30ad69f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/d30ad69f-01b7-4185-b8ae-72d4f11582ea/ascreenshot_53425668006346eebfeb18837d9f8bd4_text_export.jpeg",
+    "altText": "Build executing",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Agent/Plan-Mode/Plan-Mode.md"
+    ],
+    "folder": "Agent/Plan-Mode"
+  },
+  {
+    "filename": "Browser/click-the-deep-link-8a1918f3.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8a1918f3-c19f-466a-8045-04ab9f81bd05/ascreenshot_cffdab68a0464b6a96be0343275374c2_text_export.jpeg",
+    "altText": "Click the deep link",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/browser-agent-working-469e34c7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/469e34c7-5cfc-4bdc-85de-f14f7e80697d/ascreenshot_8247fa66fcdb4688b841f5fd13c1dc69_text_export.jpeg",
+    "altText": "Browser agent working",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/browser-testing-results-with-filtered-posts-54d183c8.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/54d183c8-90b2-4d87-b23a-04849c45baeb/ascreenshot_a913eb41174f4d008c33ec6a9ee10b9e_text_export.jpeg",
+    "altText": "Browser testing results with filtered posts",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/click-design-sidebar-icon-617f5099.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/617f5099-7a93-4331-95ab-0afe5d683b95/ascreenshot_5cf27aa880014ad0ad2a52edfa787147_text_export.jpeg",
+    "altText": "Click Design Sidebar icon",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/design-sidebar-opens-50702b9f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/50702b9f-5be9-48c1-8265-bba5a7b40691/ascreenshot_01dbf20fad6447eaa3e28595ce676ad0_text_export.jpeg",
+    "altText": "Design Sidebar opens",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/element-selected-with-design-sidebar-d9b5d351.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/d9b5d351-037a-4392-8f4b-17c989b7f777/ascreenshot_23f8abfd34b34c3faccf9cd089ae17af_text_export.jpeg",
+    "altText": "Element selected with Design Sidebar",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/design-sidebar-layout-controls-bb5af8f3.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/bb5af8f3-5664-413e-a0d6-27626ad56d5c/ascreenshot_604517d0359f43edb6c1b0cece23e39d_text_export.jpeg",
+    "altText": "Design Sidebar Layout controls",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/click-color-tab-8a5e81e0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8a5e81e0-d4ef-47a6-ad40-bb08a1e4eb17/ascreenshot_4a0bbd0866b143efab8e0ce7e43089e3_text_export.jpeg",
+    "altText": "Click Color tab",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/select-color-property-737ef90c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/737ef90c-633c-4bd5-974c-0cf05549a72c/ascreenshot_d6f86693e90e4ecb872d98a1435ccb16_text_export.jpeg",
+    "altText": "Select color property",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/choose-color-value-0a04f657.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/0a04f657-d4cb-4c9d-9bfb-e3adb6ad90d7/ascreenshot_ace45cc3629c409db914db1aaaf6a64c_text_export.jpeg",
+    "altText": "Choose color value",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/preview-color-change-bb62c975.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/bb62c975-bac1-4a13-8927-6440c93ec4e9/ascreenshot_07ac138f7a724eb7944921fbb932652e_text_export.jpeg",
+    "altText": "Preview color change",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/confirm-color-selection-a2709bc7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/a2709bc7-854c-40b2-a8ec-e2aae38e9a62/ascreenshot_1e90605441ec4939a62188555a4e7f1b_text_export.jpeg",
+    "altText": "Confirm color selection",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/reset-color-changes-f4768cdf.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/f4768cdf-c045-41df-8ef7-73b782400d7b/ascreenshot_f7c610a899824ecdb648e39e420ac302_text_export.jpeg",
+    "altText": "Reset color changes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md",
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/apply-button-with-edits-pending-cd07effa.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/cd07effa-c4a8-4e79-a94a-036ae3c13a39/ascreenshot_a484e5cd634d4b9baddfc0b1d9e37759_text_export.jpeg",
+    "altText": "Apply button with edits pending",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Browser/right-alignment-of-text-07cad5e2.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/07cad5e2-e350-49e1-8cf4-b589e1f1999b/ascreenshot_3e1d296c5db345eb9c6a23bfd22830fa_text_export.jpeg",
+    "altText": "Right alignment of text",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Browser/Browser.md"
+    ],
+    "folder": "Browser"
+  },
+  {
+    "filename": "Layout-Walkthrough/empty-editor-view-c377bc6c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/c377bc6c-dc94-4b22-860c-d0d2e75d44d7/ascreenshot_48c7278b84de4699a28d05ebb26fd5e4_text_export.jpeg",
+    "altText": "Empty editor view",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/change-layout-button-e3316593.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/e3316593-b084-4137-b4af-116f8ab389aa/user_cropped_screenshot_98932f62fdf049fba2b81888f03afa41_text_export.jpeg",
+    "altText": "Change layout button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/layout-options-943c1a7d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/943c1a7d-5482-4af0-a945-e203c06871f7/ascreenshot_125a31955a834de9a8da5e81b5f01fcb_text_export.jpeg",
+    "altText": "Layout options",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/layout-menu-e4399b7d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/e4399b7d-6d73-424a-a352-0155c5c08c75/ascreenshot_288859d0e4634752bb2ac80f34736680_text_export.jpeg",
+    "altText": "Layout menu",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/file-explorer-panel-242d3dc7.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/242d3dc7-be71-49f7-ac50-b9f2e0241ea8/ascreenshot_86429487af914df5b897932f919030d1_text_export.jpeg",
+    "altText": "File Explorer panel",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/terminal-panel-72dbd776.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/72dbd776-f68c-44b4-bb20-2b3a03d07510/ascreenshot_32e30b27d1d246d996e6d1b9b4265f00_text_export.jpeg",
+    "altText": "Terminal panel",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/agent-panel-bba84ab6.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/bba84ab6-4e9b-40fd-8f81-23f9ce8687aa/ascreenshot_24230aea6b6d4529a78dc51b27e19db7_text_export.jpeg",
+    "altText": "Agent panel",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/save-custom-layout-0b440024.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/0b440024-127a-4a9c-a66e-635e24a990cb/ascreenshot_34ab8711e7b34fe7a7956333291da849_text_export.jpeg",
+    "altText": "Save custom layout",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/select-saved-layout-9790ac50.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/9790ac50-105b-4883-b844-9f6f6b382245/ascreenshot_6c523eaeb8fd4affa9e73a9ec3b33680_text_export.jpeg",
+    "altText": "Select saved layout",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Layout-Walkthrough/switch-layouts-60a68514.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/60a68514-e0d3-4c24-8564-c4f457151e10/ascreenshot_70998385ba3d41ac8f38adb3d5569480_text_export.jpeg",
+    "altText": "Switch layouts",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Layout-Walkthrough/Layout-Walkthrough.md"
+    ],
+    "folder": "Layout-Walkthrough"
+  },
+  {
+    "filename": "Rules/open-cursor-menu-5e10a39d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/5e10a39d-577a-4859-adde-f65b80cc87b1/ascreenshot_963cb6821197457f9f92b1a67f7e1065_text_export.jpeg",
+    "altText": "Open Cursor menu",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/click-cursor-settings-038b2cf4.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/038b2cf4-a493-40b5-ad04-aedab7734f51/ascreenshot_188b74a6bc9d491da19eefb880b48a7b_text_export.jpeg",
+    "altText": "Click Cursor Settings",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/rules-and-commands-section-9c2fe195.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/9c2fe195-6ed7-4cf8-9fd5-0c9c57bf2240/ascreenshot_39ef2f296e764a349ece90a428e19e32_text_export.jpeg",
+    "altText": "Rules and Commands section",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/user-rules-c6d01973.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/c6d01973-65e5-474f-9069-75494fa18265/ascreenshot_bd1d78360abf4f40a42e4d6edad0e61d_text_export.jpeg",
+    "altText": "User rules",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/team-rules-5fbb68cc.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/5fbb68cc-c167-44ed-91ac-c1005924c440/ascreenshot_9fae6ed27c244f93bb1ecfb408de1764_text_export.jpeg",
+    "altText": "Team rules",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/team-rule-example-461c2730.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/461c2730-3dbe-467b-92a0-66fce1a9ed95/ascreenshot_a75ba376193944b5a4aa24cf61f5b81b_text_export.jpeg",
+    "altText": "Team rule example",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/rule-content-68111c63.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/68111c63-4c20-4f58-aacc-b497bb45b23e/ascreenshot_3552310334cc43d5b27bfa5e435e61b7_text_export.jpeg",
+    "altText": "Rule content",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/add-rule-button-7ef5cace.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/7ef5cace-806f-46ba-bc02-ed916f1e05a9/ascreenshot_2141f20ef3d04b21abe655d53f6ef99f_text_export.jpeg",
+    "altText": "Add Rule button",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/custom-rule-option-c2f55517.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/c2f55517-6aa1-4e6c-a5e1-76c89649d1ba/ascreenshot_bf34f7b86aef4e0f906268fc49ef7e43_text_export.jpeg",
+    "altText": "Custom Rule option",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/name-the-rule-6aebca20.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/6aebca20-aea2-43bb-9f98-d0d5492ef034/ascreenshot_03d5672b29ef4909b90052246c36c176_text_export.jpeg",
+    "altText": "Name the rule",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/rule-content-e9ad485c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/e9ad485c-76c0-4cba-b16b-fa86c8ac1248/ascreenshot_85a49066c04b4590b8e1b416d928b421_text_export.jpeg",
+    "altText": "Rule content",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/application-mode-dropdown-631f8a41.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/631f8a41-dd84-46f9-9289-077d4b7de87e/ascreenshot_0d4e61cfa01148c6bf1d564f71a77f97_text_export.jpeg",
+    "altText": "Application mode dropdown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/mode-options-3d09e8f0.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/3d09e8f0-366b-4e70-8561-94ddedf28543/ascreenshot_6a75177198c64509bdf13ac33a880573_text_export.jpeg",
+    "altText": "Mode options",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/always-apply-selected-eadee6e6.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/eadee6e6-bab3-49a6-8a41-30d45bcb6a8a/ascreenshot_a2c6f19cad0a4c1f9ee17a0b01cdf9b7_text_export.jpeg",
+    "altText": "Always Apply selected",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/always-apply-confirmation-178396fc.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/178396fc-717b-4e6d-b1fb-993aebed9ab1/ascreenshot_af07b390a1a34366a669cf1654c4a955_text_export.jpeg",
+    "altText": "Always Apply confirmation",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/apply-to-specific-files-880fbf8e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/880fbf8e-c6a8-4efc-8f2b-3c20b7772620/ascreenshot_fbb539947b6d44229797de1d66265721_text_export.jpeg",
+    "altText": "Apply to specific files",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/glob-pattern-input-38d282f8.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/38d282f8-6880-431e-9701-3552da7cc6f8/ascreenshot_21901f83dd4d472980f05dd5cab5c10d_text_export.jpeg",
+    "altText": "Glob pattern input",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/glob-pattern-example-7800623f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/7800623f-5cab-471d-9c52-2b93e6d33f6d/ascreenshot_f6deb3c11fd3446989cbfd81187abc82_text_export.jpeg",
+    "altText": "Glob pattern example",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/apply-intelligently-02e275b8.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/02e275b8-802c-476e-988a-c5c5f2eff4d2/ascreenshot_8dd37298609143d491bc5655a75fdc81_text_export.jpeg",
+    "altText": "Apply Intelligently",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/apply-intelligently-option-45b36f10.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/45b36f10-e56f-4c2d-8945-17ea2ec58bf2/ascreenshot_a54f4c5e6a4342f78894db2451f93ca0_text_export.jpeg",
+    "altText": "Apply Intelligently option",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/rule-description-9cef7ea2.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/9cef7ea2-df85-40ae-b1e0-244addcfb3b4/ascreenshot_1d4ca932bdee41c1b8d58395437e4216_text_export.jpeg",
+    "altText": "Rule description",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/validation-rule-example-23f95d7c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/23f95d7c-7a56-4526-a499-6b497c3d22be/ascreenshot_a181854c785d4852902b88cf6dfb16ff_text_export.jpeg",
+    "altText": "Validation rule example",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/apply-manually-fd04cefb.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/fd04cefb-16f2-48ce-84f6-1c70aa9a74be/ascreenshot_85da4e8c180042e79035686fbb5f89fb_text_export.jpeg",
+    "altText": "Apply Manually",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/apply-manually-selected-58b54402.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/58b54402-7dfe-49b2-9762-653db0103a91/ascreenshot_0e052d44168b441e84c923644be9b2dd_text_export.jpeg",
+    "altText": "Apply Manually selected",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/refactor-rule-example-a38cd4cd.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/a38cd4cd-7099-423e-b8ea-54528286ecd0/ascreenshot_2d733d071c814153a0c287d9e9aead9b_text_export.jpeg",
+    "altText": "Refactor rule example",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/open-agent-chat-1dbae285.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/1dbae285-3e09-4412-bf09-3cab4875d2e3/ascreenshot_70e4f7d132f94a6ab11ff094aa56a84a_text_export.jpeg",
+    "altText": "Open Agent chat",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/agent-panel-95c40a26.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/95c40a26-9609-4303-b540-fa64387cba7b/ascreenshot_c0d2e3fb59824815a6d21649014ba417_text_export.jpeg",
+    "altText": "Agent panel",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/agent-view-519dc954.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/519dc954-cd04-4886-90ef-f2894d82a3e5/ascreenshot_84c9b3d84e004cc98b28e20fefaaa4b7_text_export.jpeg",
+    "altText": "Agent view",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Rules/tag-rule-in-chat-cfbdeca1.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-02/cfbdeca1-fa98-4c40-838f-37fd8ee3885a/ascreenshot_1b275c847fbe4833931eb0c610129417_text_export.jpeg",
+    "altText": "Tag rule in chat",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Rules/Rules.md"
+    ],
+    "folder": "Rules"
+  },
+  {
+    "filename": "Tab-Inline-Edit/open-footer-tsx-ac8031b5.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ac8031b5-214a-4eec-bc5e-4bc8940253f3/ascreenshot_383cf1fcd2bd4ae68b7d027b647f584b_text_export.jpeg",
+    "altText": "Open Footer.tsx",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/start-typing-f-1bfcc4dd.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/1bfcc4dd-1210-4c58-9ecd-e10422b1ed86/ascreenshot_7f55064d30594a0ca4919082472c0bea_text_export.jpeg",
+    "altText": "Start typing F",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/tab-suggestion-appears-f24a173e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/f24a173e-585a-4a87-ac86-4666154e74c3/ascreenshot_b59184c76ed2451a850314da3119a654_text_export.jpeg",
+    "altText": "Tab suggestion appears",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/accept-tab-suggestion-b01817de.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/b01817de-9927-4086-9415-f5fa56c5458c/ascreenshot_f22ec6ad4cb44e34be69217591e84c07_text_export.jpeg",
+    "altText": "Accept Tab suggestion",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/continue-with-tab-477c255d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/477c255d-3c30-4533-b760-be43ee9d6dc8/ascreenshot_1ea3d27f2675458aad97e0b9a8a4b4d0_text_export.jpeg",
+    "altText": "Continue with Tab",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/type-sign-up-hint-5528d5e1.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/5528d5e1-84de-42c3-a331-e49f74e71ad4/ascreenshot_b09931ad6f044bc6a9bf43edec8b0c33_text_export.jpeg",
+    "altText": "Type sign up hint",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/tab-uses-existing-components-62da6a67.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/62da6a67-13ce-4f91-85f3-c01c75ab7f22/ascreenshot_84318c37534a46b9885dfcd378507ae5_text_export.jpeg",
+    "altText": "Tab uses existing components",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/rapid-iteration-with-tab-ef4d1f6f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/ef4d1f6f-1eb2-47d7-a0b3-5ec03550f614/ascreenshot_2b43d6343d6a4113a608b0f3b9cd3dba_text_export.jpeg",
+    "altText": "Rapid iteration with Tab",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/type-social-media-links-a28fd681.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/a28fd681-41b5-4dcb-9586-ee7444f06398/ascreenshot_afa69689b70f4615b2c80b730a2d9cac_text_export.jpeg",
+    "altText": "Type social media links",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/tab-adapts-to-changes-758272fe.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/758272fe-d046-455f-8a09-201519f74d26/ascreenshot_7314e537bfaf46008773362c88c4b62a_text_export.jpeg",
+    "altText": "Tab adapts to changes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/inline-edit-prompt-825f8951.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/825f8951-69cb-4831-9b85-ab60c8653ed3/ascreenshot_62c96380a4014cefb6e90ec6067bb135_text_export.jpeg",
+    "altText": "Inline edit prompt",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/type-instruction-188b6ae4.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/188b6ae4-6fe1-4211-a4b5-4986f095a52a/ascreenshot_539e37512b9e406f8ccf9c8b4f76be3d_text_export.jpeg",
+    "altText": "Type instruction",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Tab-Inline-Edit/view-the-diff-6ab10cad.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-31/6ab10cad-cd6b-4c6f-8d5e-0f118fe073a0/ascreenshot_a04a01e5a22a4b8fb7b5cad0baa7a6a6_text_export.jpeg",
+    "altText": "View the diff",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Tab-Inline-Edit/Tab-Inline-Edit.md"
+    ],
+    "folder": "Tab-Inline-Edit"
+  },
+  {
+    "filename": "Worktrees/click-banner-deep-link-7b45482e.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/7b45482e-ba37-42c0-be95-2c3fad054649/ascreenshot_c015d5d8631448499a0924d24371a50e_text_export.jpeg",
+    "altText": "Click Banner deep link",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/select-composer-1-e7f8edcd.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/e7f8edcd-2d23-4f65-87f8-7a19485e52c4/ascreenshot_65de3a4317f444bdac9bae691869b6af_text_export.jpeg",
+    "altText": "Select composer-1",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/click-local-dropdown-5a8b677a.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/5a8b677a-a88d-4c0f-aed5-57bf1fe2093b/ascreenshot_8e175f28ecf541a28391408f369831d6_text_export.jpeg",
+    "altText": "Click Local dropdown",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/select-worktree-mode-a0639f0c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/a0639f0c-44a3-45b3-941d-7a6cff125307/ascreenshot_d2211c8d116d4b21a1224b80a264e32d_text_export.jpeg",
+    "altText": "Select Worktree mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/initialize-parallel-agent-5c2f4d3f.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/5c2f4d3f-da59-4af2-a0a1-9fd35b55de71/ascreenshot_b15b0f19498046b58c106d19e86ea17b_text_export.jpeg",
+    "altText": "Initialize parallel agent",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/multiple-parallel-agents-9640c479.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/9640c479-e1fc-4d6b-b19f-ef933cb3df0c/ascreenshot_a96a8ecfa9334bc688dc472dfa2828b8_text_export.jpeg",
+    "altText": "Multiple parallel agents",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/agent-menu-with-pin-option-902e2373.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/902e2373-cacc-4f81-86d2-c2b3b69b14bb/ascreenshot_152f4fdb3d1f4d9b910379a923f6255a_text_export.jpeg",
+    "altText": "Agent menu with Pin option",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/view-applied-changes-047c5e7c.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/047c5e7c-5073-4a7e-9a0b-e951bfbb74ce/ascreenshot_eef2750e6fc4481e804ff3c6047555e1_text_export.jpeg",
+    "altText": "View applied changes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/click-undo-6c959caa.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/6c959caa-79b5-4a29-9603-1057319a604a/ascreenshot_b5bd93c60b6b4412bbfb108e5882f821_text_export.jpeg",
+    "altText": "Click Undo",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/merge-manually-b5262360.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/b5262360-8c7d-43a5-be1b-76136c3e40fe/ascreenshot_0605847c7cbc449fa2d8c434907729d5_text_export.jpeg",
+    "altText": "Merge manually",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/merge-conflict-view-5414ca48.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/5414ca48-80d1-4f5d-b821-cd130d938fff/ascreenshot_6d022193546b4b0b9ba7b3e6034f93ca_text_export.jpeg",
+    "altText": "Merge conflict view",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/model-selection-with-use-multiple-models-toggle-ce281efe.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/ce281efe-15c2-4237-8e35-0a5d398d85f3/ascreenshot_00eb46d1cc5d4da18115fd05d94ce7be_text_export.jpeg",
+    "altText": "Model selection with Use Multiple Models toggle",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/multi-model-selection-with-checkboxes-a98fbd2b.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/a98fbd2b-8df3-475f-9156-63ee534c5da2/ascreenshot_f0a5d2c83e9f4a0e85dfa8a6b423ce15_text_export.jpeg",
+    "altText": "Multi-model selection with checkboxes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/compare-implementations-b98265b4.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/b98265b4-177d-4dc5-ac1f-3302b2ef7844/ascreenshot_2b9310c6337a4dcda3b83cd78e68a815_text_export.jpeg",
+    "altText": "Compare implementations",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/agent-working-on-dark-mode-8ccca8e5.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8ccca8e5-5ef5-4de1-9be8-d4265dd2eb4b/ascreenshot_5497c0de726943d4b2c44dddf8e380a0_text_export.jpeg",
+    "altText": "Agent working on dark mode",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/dark-mode-implemented-8b9886ca.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/8b9886ca-966e-4875-82f0-e82c4715eeb5/ascreenshot_4d1e9dda4e19447099e3acc034c7356d_text_export.jpeg",
+    "altText": "Dark mode implemented",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/dark-mode-results-97d38576.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/97d38576-acf2-4803-9efd-b9bc1748a2c2/ascreenshot_63d105658b3543218cd6d7ab23470cf2_text_export.jpeg",
+    "altText": "Dark mode results",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/click-review-changes-d1945eea.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/d1945eea-c0ef-41cb-b001-49eea945b76c/ascreenshot_50fc9ed2054945bb81d788f2792341c5_text_export.jpeg",
+    "altText": "Click Review Changes",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/view-the-diff-7d4fcd8d.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/7d4fcd8d-6564-4c20-9439-8d066663cfd6/ascreenshot.jpeg",
+    "altText": "View the diff",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Worktrees/type-commit-54f45911.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2025-12-30/54f45911-42e4-45bc-ae24-6f5976da402a/ascreenshot_aeb76eae3f944e159952b33198d257bd_text_export.jpeg",
+    "altText": "Type /commit",
+    "sourceFiles": [
+      "docs/presenter-docs/Features/Worktrees/Worktrees.md"
+    ],
+    "folder": "Worktrees"
+  },
+  {
+    "filename": "Getting-Started/image-3b38f913.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-01/3b38f913-5e02-4073-b35b-6b30642fb3c9/ascreenshot_fe3775afd50a486185d518ad2bda0658_text_export.jpeg",
+    "altText": "",
+    "sourceFiles": [
+      "docs/presenter-docs/README.md"
+    ],
+    "folder": "Getting-Started"
+  },
+  {
+    "filename": "Getting-Started/image-83227571.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-01/83227571-4066-446a-8704-8d85ed62c206/ascreenshot_eac2d5f16417497984d40b55c6bda4e9_text_export.jpeg",
+    "altText": "",
+    "sourceFiles": [
+      "docs/presenter-docs/README.md"
+    ],
+    "folder": "Getting-Started"
+  },
+  {
+    "filename": "Getting-Started/image-1205a986.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-01/1205a986-7ad6-441e-8bf5-bd28dec964f5/ascreenshot_6e8087d4edc74948adb2822a94144536_text_export.jpeg",
+    "altText": "",
+    "sourceFiles": [
+      "docs/presenter-docs/README.md"
+    ],
+    "folder": "Getting-Started"
+  },
+  {
+    "filename": "Getting-Started/image-bda94460.jpeg",
+    "originalUrl": "https://colony-recorder.s3.amazonaws.com/files/2026-01-01/bda94460-5959-4210-bec6-d1c0acac950f/ascreenshot_db0b94d2b57548db8b1ea5783bbe86e9_text_export.jpeg",
+    "altText": "",
+    "sourceFiles": [
+      "docs/presenter-docs/README.md"
+    ],
+    "folder": "Getting-Started"
+  }
+]

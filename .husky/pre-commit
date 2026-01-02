@@ -1,0 +1,5 @@
+# Pre-commit hook - lightweight checks only
+# Heavy checks (build) run on pre-push
+
+# Optionally run format check on staged files
+# pnpm format:check
