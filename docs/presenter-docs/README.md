@@ -82,9 +82,9 @@ The best way to learn these demos is to **run through them yourself using the sc
 
 | Demo | Description |
 |------|-------------|
-| **[Cursor 2.0](./Cursor-2.0/)** | Advanced demo: Browser, Worktrees, Bugbot |
-| **[Cursor 101](./Cursor-101/)** | Intro demo: Layout, Tab + Inline Edit, Agent Chat |
-| **[Features](./Features/)** | Modular guides to pick and choose from |
+| **[Cursor 2.0](/presenter-docs/Cursor-2.0/DEMO_FLOW)** | Advanced demo: Browser, Worktrees, Bugbot |
+| **[Cursor 101](/presenter-docs/Cursor-101/DEMO_FLOW)** | Intro demo: Layout, Tab + Inline Edit, Agent Chat |
+| **[Features](/presenter-docs/Features/README)** | Modular guides to pick and choose from |
 
 </details>
 
