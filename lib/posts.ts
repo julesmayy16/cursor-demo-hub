@@ -69,11 +69,8 @@ export function getPostsData(): { sortedPosts: PostData[]; groupedPosts: { [year
     };
   });
   
-  const sortedPosts = allPostsData.sort((a, b) => {
-    const dateA = new Date(a.date.replace(/\./g, "-"));
-    const dateB = new Date(b.date.replace(/\./g, "-"));
-    return dateB.getTime() - dateA.getTime();
-  });
+  // Simplified: dates are already in sortable yyyy.MM.dd format
+  const sortedPosts = allPostsData.sort((a, b) => a.date.localeCompare(b.date));
   
   const groupedPosts: { [year: string]: { [month: string]: PostData[] } } = {};
   
