@@ -1,0 +1,29 @@
+stages:
+  - lint-typecheck-build
+
+variables:
+  NODE_VERSION: "20"
+  PNPM_VERSION: "10.18.3"
+
+cache:
+  key:
+    files:
+      - pnpm-lock.yaml
+  paths:
+    - .pnpm-store
+
+lint-typecheck-build:
+  stage: lint-typecheck-build
+  image: node:${NODE_VERSION}
+  before_script:
+    - corepack enable
+    - corepack prepare pnpm@${PNPM_VERSION} --activate
+    - pnpm config set store-dir .pnpm-store
+  script:
+    - pnpm install --frozen-lockfile
+    - pnpm lint
+    - pnpm type-check
+    - pnpm build
+  only:
+    - main
+    - merge_requests
